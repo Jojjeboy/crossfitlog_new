@@ -1,0 +1,124 @@
+<div class="search">
+    <div class="flex flex-col gap-2">
+        <label for="username">Minst 3 tecken</label>
+        <input pInputText [formControl]="searchControl" (keyup)="onSearchChange()" class="p-component p-inputtext" placeholder="Minst 3 tecken för att söka">
+    </div>
+</div>
+
+@if(searchResults.length > 0){
+<div class="search-results">
+    <div class="col-span-12 xl:col-span-6">
+
+        <span class="block text-muted-color font-medium mb-4">Sökresultat</span>
+        <ul class="p-0 mx-0 mt-0 mb-6 list-none">
+            
+            @for (workout of searchResults; track $index) {
+            <li class="flex items-center py-2">
+                @if(!showGif){
+                    <div class="w-12 h-12 flex items-center justify-center bg-{{ colors[$index % colors.length] }}-100 dark:bg-{{ colors[$index % colors.length] }}-400/10 rounded-full mr-4 shrink-0">
+                        <i class="pi pi-chevron-right text-xl! text-{{ colors[$index % colors.length] }}-500" (click)="toggleGif()"></i>
+                    </div>
+                }
+                @else {
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full mr-4 shrink-0">
+                        <img [src]="workout.gifUrl" width="50" [alt]="workout.name" (click)="toggleGif()" />
+                    </div>
+                }
+                <div (click)="showPopup(workout.name)" class="text-surface-900 dark:text-surface-0 leading-normal">{{ workout.name | titlecase }}<br />
+                    <div class="mt-1 text-muted-color">{{ workout.targetMuscles.join(', ') | titlecase}} / {{
+                        workout.secondaryMuscles.join(', ') | titlecase}}</div>
+                </div>
+            </li>
+            }
+        </ul>
+
+        <!--
+        {
+    "exerciseId": "LMGXZn8",
+    "name": "barbell decline close grip to skull press",
+    "gifUrl": "https://static.exercisedb.dev/media/LMGXZn8.gif",
+    "targetMuscles": ["triceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["chest", "shoulders"],
+    "instructions": [
+      "Step:1 Lie on a decline bench with your head lower than your feet and hold a barbell with a close grip.",
+      "Step:2 Lower the barbell towards your forehead by bending your elbows, keeping your upper arms stationary.",
+      "Step:3 Pause for a moment, then extend your arms to press the barbell back up to the starting position.",
+      "Step:4 Repeat for the desired number of repetitions."
+    ]
+  },
+        -->
+
+
+
+    </div>
+</div>
+}
+
+
+
+
+
+<!--ul class="list-none p-0 m-0">
+    <li class="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+        <div>
+            <span class="text-surface-900 dark:text-surface-0 font-medium mr-2 mb-1 md:mb-0">Space T-Shirt</span>
+            <div class="mt-1 text-muted-color">Clothing</div>
+        </div>
+    </li>
+
+    <li class="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+        <div>
+            <span class="text-surface-900 dark:text-surface-0 font-medium mr-2 mb-1 md:mb-0">Supernova
+                Sticker</span>
+            <div class="mt-1 text-muted-color">Accessories</div>
+        </div>
+        <div class="mt-2 md:mt-0 ml-0 md:ml-20 flex items-center">
+            <div class="bg-surface-300 dark:bg-surface-500 rounded-border overflow-hidden w-40 lg:w-24"
+                style="height: 8px">
+                <div class="bg-pink-500 h-full" style="width: 67%"></div>
+            </div>
+            <span class="text-pink-500 ml-4 font-medium">%67</span>
+        </div>
+    </li>
+    <li class="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+        <div>
+            <span class="text-surface-900 dark:text-surface-0 font-medium mr-2 mb-1 md:mb-0">Wonders Notebook</span>
+            <div class="mt-1 text-muted-color">Office</div>
+        </div>
+        <div class="mt-2 md:mt-0 ml-0 md:ml-20 flex items-center">
+            <div class="bg-surface-300 dark:bg-surface-500 rounded-border overflow-hidden w-40 lg:w-24"
+                style="height: 8px">
+                <div class="bg-green-500 h-full" style="width: 35%"></div>
+            </div>
+            <span class="text-primary ml-4 font-medium">%35</span>
+        </div>
+    </li>
+    <li class="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+        <div>
+            <span class="text-surface-900 dark:text-surface-0 font-medium mr-2 mb-1 md:mb-0">Mat Black Case</span>
+            <div class="mt-1 text-muted-color">Accessories</div>
+        </div>
+        <div class="mt-2 md:mt-0 ml-0 md:ml-20 flex items-center">
+            <div class="bg-surface-300 dark:bg-surface-500 rounded-border overflow-hidden w-40 lg:w-24"
+                style="height: 8px">
+                <div class="bg-purple-500 h-full" style="width: 75%"></div>
+            </div>
+            <span class="text-purple-500 ml-4 font-medium">%75</span>
+        </div>
+    </li>
+    <li class="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+        <div>
+            <span class="text-surface-900 dark:text-surface-0 font-medium mr-2 mb-1 md:mb-0">Robots T-Shirt</span>
+            <div class="mt-1 text-muted-color">Clothing</div>
+        </div>
+        <div class="mt-2 md:mt-0 ml-0 md:ml-20 flex items-center">
+            <div class="bg-surface-300 dark:bg-surface-500 rounded-border overflow-hidden w-40 lg:w-24"
+                style="height: 8px">
+                <div class="bg-teal-500 h-full" style="width: 40%"></div>
+            </div>
+            <span class="text-teal-500 ml-4 font-medium">%40</span>
+        </div>
+    </li>
+</ul-->
