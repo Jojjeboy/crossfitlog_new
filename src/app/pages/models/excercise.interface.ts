@@ -1,5 +1,13 @@
 export interface Equipment {
-  name: string
+  name: string[]
+}
+
+export interface BodyPart {
+  name: string[]
+}
+
+export interface Muscle {
+  name: string[]
 }
 
 export interface Exercise {
@@ -25,25 +33,25 @@ export interface Exercise {
    * List of equipment required for the exercise.
    * @example ["band"]
    */
-  equipments: string[]
+  equipments: Equipment
 
   /**
    * Primary body parts targeted by the exercise.
    * @example ["back"]
    */
-  bodyParts: string[]
+  bodyParts: BodyPart
 
   /**
    * Primary muscles targeted by the exercise.
    * @example ["traps"]
    */
-  targetMuscles: string[]
+  targetMuscles: Muscle
 
   /**
    * Secondary muscles engaged during the exercise.
    * @example ["traps", "traps", "triceps"]
    */
-  secondaryMuscles: string[]
+  secondaryMuscles: Muscle
 
   /**
    * Step-by-step instructions to perform the exercise.
@@ -52,10 +60,3 @@ export interface Exercise {
   instructions: string[]
 }
 
-export interface BodyPart {
-  name: string
-}
-
-export interface Muscle {
-  name: string
-}

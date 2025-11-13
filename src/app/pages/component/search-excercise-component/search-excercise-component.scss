@@ -5,3 +5,14 @@
         font-size: xx-small;
     }
 }
+
+.search-results{
+    li {
+        min-height: 67px;
+        border-top: 1px solid #e7e7e7;
+        &:first-child{
+            border: none;
+        }
+    }
+
+}

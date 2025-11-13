@@ -1,10 +1,11 @@
-import { DataService } from '@/pages/service/data-service';
-import { Exercise } from '@/types';
+import { ExcerciseService } from '@/pages/service/excercise.service';
+import { Exercise } from '@/pages/models/excercise.interface';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl } from '@angular/forms';
 import { distinctUntilChanged, filter, Subscription } from 'rxjs';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Dialog } from 'primeng/dialog';
 
 @Component({
   selector: 'app-search-excercise-component',
@@ -16,7 +17,7 @@ export class SearchExcerciseComponent {
 
 
   constructor(
-    private dataService: DataService
+    private excerciseService: ExcerciseService
   ) { }
 
   searchControl = new FormControl<string>('', {
@@ -54,7 +55,7 @@ export class SearchExcerciseComponent {
 
   async performSearch(searchquery: string) {
     this.loading = true;
-    this.searchResults = this.dataService.filterItemsByName(searchquery);
+    this.searchResults = this.excerciseService.filterItemsByName(searchquery);
     this.loading = false;
     console.log('Filtrerade resultat:', this.searchResults);
   }
