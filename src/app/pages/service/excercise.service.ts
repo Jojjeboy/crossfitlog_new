@@ -15,11 +15,12 @@ import { CompletedExercise } from '../models/completedExcercise.interface';
 export class ExcerciseService implements OnDestroy{
   private jsonUrl = '/exercises.json'; // Sökväg till din JSON-fil
   private excercisesFromDb: ExcerciseModel[] = [];
+  private completedExercises: ExcerciseModel[] = [];
   private excercisesCompleted: CompletedExerciseModel[] = [];
   private isLoaded = false;
 
 
-  private readonly key = 'savedExcercise';
+  private readonly key = 'completedExercises';
   private excercisesSubject = new BehaviorSubject<ExcerciseModel[]>([]);
   private completedExcerciseSubject = new BehaviorSubject<CompletedExerciseModel[]>([]);
   excercises$ = this.excercisesSubject.asObservable();
@@ -35,8 +36,9 @@ export class ExcerciseService implements OnDestroy{
   }
 
   loadFromStorage(): void{
-    const raw = this.storageService.get<CompletedExercise[]>(this.key);
-    // RAD 41 FIXAD: 'raw' är en array här, så .map() fungerar
+    //const raw = this.storageService.get<CompletedExercise[]>(this.key);
+    const raw = this.storageService.ensureArrayExists<CompletedExercise>(this.key);
+    
     const models = raw ? raw.map(w => this.toCompletedExcerciseModel(w)) : [];
     this.completedExcerciseSubject.next(models);
   }
@@ -61,7 +63,7 @@ export class ExcerciseService implements OnDestroy{
   }
 
   // En metod för att hämta den laddade datan
-  getData(): ExcerciseModel[] {
+  getDataFromDB(): ExcerciseModel[] {
     return this.excercisesFromDb
   }
 
@@ -70,6 +72,7 @@ export class ExcerciseService implements OnDestroy{
     this.excercisesFromDb = data;
     this.isLoaded = true;
   }
+
 
   // Hämta ett objekt baserat på dess sträng id
   getItemById(id: string): Exercise | undefined {

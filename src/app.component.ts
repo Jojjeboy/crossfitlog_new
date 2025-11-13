@@ -14,7 +14,10 @@ export class AppComponent implements OnInit {
     
     excercises$: Observable<ExcerciseModel[]>; // Deklarera en observable
 
-    constructor(private excerciseService: ExcerciseService){
+    constructor(
+        private excerciseService: ExcerciseService
+
+    ){
         // Tilldela Observable i konstruktorn
         this.excercises$ = this.excerciseService.excercises$; 
     }
@@ -23,6 +26,7 @@ export class AppComponent implements OnInit {
         if (!this.excerciseService.getIsLoaded()) {
             this.excerciseService.loadDataFromDB();
         }
+        this.excerciseService.loadFromStorage();
     }
 }
 // Och sedan använder du | async pipen i din template:
