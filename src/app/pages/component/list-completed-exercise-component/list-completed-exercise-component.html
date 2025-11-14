@@ -24,8 +24,8 @@
                 <div (click)="showDialog(exercise)"
                     class="text-surface-900 dark:text-surface-0 leading-normal">{{ exercise.exercise.name | titlecase
                     }}<br />
-                    <div class="mt-1 text-muted-color">{{ exercise.date | date:"d MMM" }} / {{ exercise.sets.length}} {{
-                        exercise.sets.length > 1 ? 'sets' : 'set' }} </div>
+                    <div class="mt-1 text-muted-color">{{ exercise.occasion.length}} {{
+                        exercise.occasion.length > 1 ? 'tillfällen' : 'tillfälle' }} / Senast: {{ getLatestOccation(exercise.occasion) | date:"d MMM" }} </div>
                 </div>
             </li>
             }

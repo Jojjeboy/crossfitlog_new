@@ -8,9 +8,4 @@ export interface CompletedSet {
    * Vikt (om tillämpligt)
    */
   weight?: number
-
-  /**
-   * Eventuell notering om känsla, tempo, form, etc.
-   */
-  note?: string
 }

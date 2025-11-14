@@ -27,4 +27,20 @@ export class ListCompletedExerciseComponent extends List {
   showPopup(passsedVal: string) {
     alert(passsedVal);
   }
+
+  getLatestOccation(occasions: any){
+    return occasions.reduce((latest:any, current:any) => {
+        // Skapa Date-objekt från datumsträngarna för att kunna jämföra dem
+        const latestDate = new Date(latest.date);
+        const currentDate = new Date(current.date);
+
+        // Om det aktuella datumet är senare (större) än det hittills senaste,
+        // returnera det aktuella objektet.
+        if (currentDate > latestDate) {
+            return current.date;
+        } else {
+            return latest.date;
+        }
+    });
+  }
 }

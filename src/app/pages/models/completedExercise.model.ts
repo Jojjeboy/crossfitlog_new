@@ -1,6 +1,7 @@
 import { Exercise as IExercise } from "./exercise.interface";
 import { CompletedExercise } from "./completedExercise.interface";
 import { CompletedSet } from "./completedSets.interface";
+import { CompletedOccasion } from "./completedOccasion.interface";
 
 // Implementerar CompletedExercise-interfacet med getters och setters
 export class CompletedExerciseModel implements CompletedExercise {
@@ -8,26 +9,19 @@ export class CompletedExerciseModel implements CompletedExercise {
     private _uuid: string;
     private _lookupId: string;
     private _exercise: IExercise;
-    private _date: Date;
-    private _sets: CompletedSet[];
-    private _note?: string; // Valfri egenskap
+    private _occasion: CompletedOccasion[];
 
     constructor(
         uuid: string,
         lookupId: string,
         exercise: IExercise,
-        date: Date,
-        sets: CompletedSet[],
-        note?: string
+        occassion: CompletedOccasion[],
     ) {
         // Initiera de privata egenskaperna i konstruktorn
         this._uuid = uuid;
         this._lookupId = lookupId,
         this._exercise = exercise;
-        this._date = date;
-        this._sets = sets;
-        this._note = note;
-    
+        this._occasion = occassion;
     }
 
     // --- Getters (Läs-åtkomst) ---
@@ -45,17 +39,10 @@ export class CompletedExerciseModel implements CompletedExercise {
         return this._exercise;
     }
 
-    public get date(): Date {
-        return this._date;
+    public get occasion(): CompletedOccasion[] {
+        return this._occasion;
     }
 
-    public get sets(): CompletedSet[] {
-        return this._sets;
-    }
-
-    public get note(): string | undefined {
-        return this._note;
-    }
 
     // --- Setters (Skriv-åtkomst) ---
     // ÄNDRAD TILL TS-SETTER (t.ex. 'set uuid()')
@@ -72,6 +59,7 @@ export class CompletedExerciseModel implements CompletedExercise {
         this._exercise = value;
     }
 
+    /*
     public set date(value: Date) {
         // Exempel på validering: Se till att datumet är ett giltigt Date-objekt
         if (isNaN(value.getTime())) {
@@ -79,18 +67,21 @@ export class CompletedExerciseModel implements CompletedExercise {
         }
         this._date = value;
     }
+        */
 
-    public set sets(value: CompletedSet[]) {
+    public set occasion(value: CompletedOccasion[]) {
         // Exempel på validering: Säkerställ att listan inte är null/undefined, men tillåter tom lista
         if (!Array.isArray(value)) {
             throw new Error("Sets måste vara en lista.");
         }
-        this._sets = value;
+        this._occasion = value;
     }
 
+    /*
     public set note(value: string | undefined) {
         this._note = value;
     }
+    */
 
     // --- Hjälpmetod (exempel) ---
     
@@ -98,7 +89,7 @@ export class CompletedExerciseModel implements CompletedExercise {
      * Lägger till ett nytt set i listan.
      * @param set Det genomförda setet som ska läggas till.
      */
-    public addSet(set: CompletedSet): void {
-        this._sets.push(set);
+    public addOccasion(occasion: CompletedOccasion): void {
+        this._occasion.push(occasion);
     }
 }

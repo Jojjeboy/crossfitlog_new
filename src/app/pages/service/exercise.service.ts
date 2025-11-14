@@ -153,17 +153,15 @@ export class ExerciseService implements OnDestroy{
     }
 
     // 3. Konvertera datum (som fortfarande kan vara en sträng från localStorage)
-    const date = new Date(completedExercise.date);
+    //const date = new Date(completedExercise.date);
 
     // 4. Returnera den nya modellen
     return new CompletedExerciseModel(
         completedExercise.uuid,
         completedExercise.lookupId,
         // Vi använder exerciseToDisplay om det finns, annars en tom modell
-        exerciseToDisplay || this.createEmptyExerciseModel(), 
-        date, 
-        completedExercise.sets,
-        completedExercise.note
+        exerciseToDisplay || this.createEmptyExerciseModel(),        
+        completedExercise.occasion
     );
   }
 

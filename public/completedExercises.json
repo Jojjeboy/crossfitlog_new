@@ -1,33 +1,72 @@
-[
-    {
-        "uuid": "d0b2f757-af89-41eb-a78d-c02abd724342",
-        "lookupId": "LMGXZn8",
-        "exercise": {},
-        "date": "2025-11-02T12:00:00Z",
-        "sets": [
-            {
-                "reps": 4,
-                "weight": 60,
-                "note": "Lätt, du kan mer"
-            }
-        ]
-    },
-    {
-        "uuid": "d1b2f757-af89-41eb-a58d-c02abd724342",
-        "lookupId": "ecl28tP",
-        "exercise": {},
-        "date": "2025-11-02T12:00:00Z",
-        "sets": [
-            {
-                "reps": 4,
-                "weight": 60,
-                "note": "Lätt, du kan mer"
-            },
-            {
-                "reps": 2,
-                "weight": 8,
-                "note": "Tuuuungt"
-            }
-        ]
-    }
-]
+    [
+        {
+            "uuid": "d0b2f757-af89-41eb-a78d-c02abd724342",
+            "lookupId": "LMGXZn8",
+            "exercise": {},
+            "occasion": [
+                {
+                    "date": "2025-11-03T12:00:00Z",
+                    "note": "Lätt, du kan mer",
+                    "sets": [
+                        {
+                            "reps": 4,
+                            "weight": 60
+                        },
+                        {
+                            "reps": 3,
+                            "weight": 70
+                        }
+                    ]
+                },
+                {
+                    "date": "2025-11-050T12:00:00Z",
+                    "note": "",
+                    "sets": [
+                        {
+                            "reps": 4,
+                            "weight": 65
+                        },
+                        {
+                            "reps": 2,
+                            "weight": 75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uuid": "d1b2f757-af89-41eb-a58d-c02abd724342",
+            "lookupId": "ecl28tP",
+            "exercise": {},
+            "occasion": [
+                {
+                    "date": "2025-10-22T12:00:00Z",
+                    "note": "Bättre men du kan mer",
+                    "sets": [
+                        {
+                            "reps": 6,
+                            "weight": 50
+                        },
+                        {
+                            "reps": 3,
+                            "weight": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "2025-11-010T12:00:00Z",
+                    "note": "Max",
+                    "sets": [
+                        {
+                            "reps": 4,
+                            "weight": 65
+                        },
+                        {
+                            "reps": 2,
+                            "weight": 75
+                        }
+                    ]
+                }
+            ]
+        }
+    ]

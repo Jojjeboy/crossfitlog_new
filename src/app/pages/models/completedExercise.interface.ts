@@ -1,5 +1,6 @@
 import { Exercise } from "./exercise.interface";
 import { CompletedSet } from "./completedSets.interface"
+import { CompletedOccasion } from "./completedOccasion.interface";
 
 export interface CompletedExercise {
   
@@ -18,19 +19,9 @@ export interface CompletedExercise {
    */
   exercise: Exercise
 
-/**
-   * Datum för övning 
-   */
-  date: Date
-
   /**
    * En lista med set som genomfördes för denna övning
    */
-  sets: CompletedSet[]
-
-    /**
-   * Eventuell notering.
-   */
-  note?: string
+  occasion: CompletedOccasion[]
 }
 
