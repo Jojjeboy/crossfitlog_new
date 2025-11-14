@@ -21,7 +21,7 @@
                         <i class="pi pi-chevron-right text-xl! text-{{ colors[$index % colors.length] }}-500" (click)="toggleGif(($index + 1))"></i>
                     </div>
                 }
-                <div (click)="showPopup(exercise.exercise.name)"
+                <div (click)="showDialog(exercise)"
                     class="text-surface-900 dark:text-surface-0 leading-normal">{{ exercise.exercise.name | titlecase
                     }}<br />
                     <div class="mt-1 text-muted-color">{{ exercise.date | date:"d MMM" }} / {{ exercise.sets.length}} {{
@@ -33,3 +33,13 @@
     </div>
 </div>
 }
+
+
+<div class="card flex justify-center">
+    <p-dialog header="Header" [(visible)]="visible" [modal]="true" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </p-dialog>
+</div>
