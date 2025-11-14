@@ -144,7 +144,7 @@ export class ExerciseService implements OnDestroy{
     let exerciseToDisplay: ExerciseModel | undefined;
 
     // 2. Använd if/else för tydlig kontroll (som önskat)
-    if (completedExercise.exercise && completedExercise.exercise.exerciseId) {
+    if (completedExercise.lookupId) {
         // Om vi har en rå övning OCH den har ett ID, försök hämta den fullständiga modellen
         exerciseToDisplay = this.getItemById(completedExercise.lookupId) as ExerciseModel; 
     } else {
