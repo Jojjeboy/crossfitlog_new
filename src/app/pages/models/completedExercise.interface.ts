@@ -7,6 +7,11 @@ export interface CompletedExercise {
    * Id på aktiviteten
    */
   uuid: string
+    
+  /**
+   * Id på aktiviteten
+   */
+  lookupId: string
 
     /**
    * Referens till övningen (kopplar till Exercise-interface)

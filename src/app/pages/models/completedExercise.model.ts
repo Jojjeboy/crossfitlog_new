@@ -6,6 +6,7 @@ import { CompletedSet } from "./completedSets.interface";
 export class CompletedExerciseModel implements CompletedExercise {
     // Ändrat till privata egenskaper med '_' prefix
     private _uuid: string;
+    private _lookupId: string;
     private _exercise: IExercise;
     private _date: Date;
     private _sets: CompletedSet[];
@@ -13,6 +14,7 @@ export class CompletedExerciseModel implements CompletedExercise {
 
     constructor(
         uuid: string,
+        lookupId: string,
         exercise: IExercise,
         date: Date,
         sets: CompletedSet[],
@@ -20,6 +22,7 @@ export class CompletedExerciseModel implements CompletedExercise {
     ) {
         // Initiera de privata egenskaperna i konstruktorn
         this._uuid = uuid;
+        this._lookupId = lookupId,
         this._exercise = exercise;
         this._date = date;
         this._sets = sets;
@@ -32,6 +35,10 @@ export class CompletedExerciseModel implements CompletedExercise {
 
     public get uuid(): string {
         return this._uuid;
+    }
+
+    public get lookupId(): string {
+        return this.lookupId;
     }
 
     public get exercise(): IExercise {
@@ -55,6 +62,10 @@ export class CompletedExerciseModel implements CompletedExercise {
     
     public set uuid(value: string) {
         this._uuid = value;
+    }
+
+    public set lookupId(value: string) {
+        this._lookupId = value;
     }
 
     public set exercise(value: IExercise) {

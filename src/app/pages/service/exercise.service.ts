@@ -146,7 +146,7 @@ export class ExerciseService implements OnDestroy{
     // 2. Använd if/else för tydlig kontroll (som önskat)
     if (completedExercise.exercise && completedExercise.exercise.exerciseId) {
         // Om vi har en rå övning OCH den har ett ID, försök hämta den fullständiga modellen
-        exerciseToDisplay = this.getItemById(completedExercise.exercise.exerciseId) as ExerciseModel; 
+        exerciseToDisplay = this.getItemById(completedExercise.lookupId) as ExerciseModel; 
     } else {
         // Annars, sätt till undefined
         exerciseToDisplay = undefined;
@@ -158,6 +158,7 @@ export class ExerciseService implements OnDestroy{
     // 4. Returnera den nya modellen
     return new CompletedExerciseModel(
         completedExercise.uuid,
+        completedExercise.lookupId,
         // Vi använder exerciseToDisplay om det finns, annars en tom modell
         exerciseToDisplay || this.createEmptyExerciseModel(), 
         date, 

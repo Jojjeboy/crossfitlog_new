@@ -7,13 +7,12 @@
 
 
     <div class="flex justify-between items-center mb-6">
-            <div class="font-semibold text-xl">    Sök bland övningar</div>
+            <div class="font-semibold text-xl">Loggade övningar</div>
     </div>
 
     <div class="search-results">
     <div class="col-span-12 xl:col-span-6">
 
-        <span class="block text-muted-color font-medium mb-4">Sökresultat</span>
         <ul class="p-0 mx-0 mt-0 mb-6 list-none">
             
             @for (exercise of completedExercise$ | async; track $index){
@@ -22,7 +21,7 @@
                     <div class="w-12 h-12 flex items-center justify-center bg-blue-100 dark:bg-blue-400/10 rounded-full mr-4 shrink-0">
                         <i class="pi pi-chevron-right text-xl! text-blue-500"></i>
                     </div>
-                <div class="text-surface-900 dark:text-surface-0 leading-normal">{{ exercise.exercise.name | titlecase }}<br />
+                <div class="text-surface-900 dark:text-surface-0 leading-normal">{{ exercise | json }}<br />
                     
                 </div>
             </li>
