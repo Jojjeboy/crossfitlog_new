@@ -1,17 +1,17 @@
 export class List {
 
-    showGif: boolean = false;
+    showGifNr: number = 0;
     colors: string[] = ["blue", "green", "yellow", "cyan", "pink", "purple"];
 
 
-    toggleGif() {
-        this.showGif = !this.showGif;
+    toggleGif(index: number) {
+        this.showGifNr = index;
         let seconds = 7;
         const interval = setInterval(() => {
             console.log(seconds); // Visar nedräkningen i konsolen
             seconds--;
             if (seconds < 0) {
-                this.showGif = false;
+                this.showGifNr = 0;
                 clearInterval(interval);
             }
         }, 1000);

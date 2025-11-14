@@ -5,8 +5,9 @@
         position: relative;
         input[type="text"]{
             border: 1px solid #ccc;
-            padding: 5px 8px;
+            padding: 10px 12px;
             border-radius: 5px;
+            font-size: 1.3em;
         }
         input[type=text]:focus {
             border: 1px solid #a8a8a8;

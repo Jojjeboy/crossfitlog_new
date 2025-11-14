@@ -7,23 +7,27 @@
 <div class="search-results">
     <div class="col-span-12 xl:col-span-6">
         <ul class="p-0 mx-0 mt-0 mb-6 list-none">
-            
+
             @for (exercise of completedExercises; track $index) {
-                <li class="flex items-center py-2 result-item">
-                    @if(!showGif){
-                        <div class="w-12 h-12 flex items-center justify-center bg-{{ colors[$index % colors.length] }}-100 dark:bg-{{ colors[$index % colors.length] }}-400/10 rounded-full mr-4 shrink-0">
-                            <i class="pi pi-chevron-right text-xl! text-{{ colors[$index % colors.length] }}-500" (click)="toggleGif()"></i>
-                        </div>
-                    }
-                    @else {
-                        <div class="w-12 h-12 flex items-center justify-center rounded-full mr-4 shrink-0">
-                            <img [src]="exercise.exercise.gifUrl" width="50" [alt]="exercise.exercise.name" (click)="toggleGif()" />
-                        </div>
-                    }
-                    <div (click)="showPopup(exercise.exercise.name)" class="text-surface-900 dark:text-surface-0 leading-normal">{{ exercise.exercise.name | titlecase }}<br />
-                        <div class="mt-1 text-muted-color">{{ exercise.date | date:"d MMM" }} / {{ exercise.sets.length}} {{ exercise.sets.length > 1 ? 'sets' : 'set' }} </div>
+            <li class="flex items-center py-2 result-item">
+                @if(showGifNr === ($index + 1)){
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full mr-4 shrink-0">
+                        <img [src]="exercise.exercise.gifUrl" width="50" [alt]="exercise.exercise.name"
+                            (click)="toggleGif(($index + 1))" />
                     </div>
-                </li>
+                }
+                @else {
+                    <div class="w-12 h-12 flex items-center justify-center bg-{{ colors[$index % colors.length] }}-100 dark:bg-{{ colors[$index % colors.length] }}-400/10 rounded-full mr-4 shrink-0">
+                        <i class="pi pi-chevron-right text-xl! text-{{ colors[$index % colors.length] }}-500" (click)="toggleGif(($index + 1))"></i>
+                    </div>
+                }
+                <div (click)="showPopup(exercise.exercise.name)"
+                    class="text-surface-900 dark:text-surface-0 leading-normal">{{ exercise.exercise.name | titlecase
+                    }}<br />
+                    <div class="mt-1 text-muted-color">{{ exercise.date | date:"d MMM" }} / {{ exercise.sets.length}} {{
+                        exercise.sets.length > 1 ? 'sets' : 'set' }} </div>
+                </div>
+            </li>
             }
         </ul>
     </div>
