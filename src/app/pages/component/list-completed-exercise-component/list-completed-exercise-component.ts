@@ -9,10 +9,13 @@ import { TableModule } from 'primeng/table';
 import { TreeTableModule } from "primeng/treetable";
 import { CardModule } from 'primeng/card';
 import { Chip } from 'primeng/chip';
+import { OccasionFormComponent } from "../occasion-form-component/occasion-form-component";
+
+
 
 @Component({
   selector: 'app-list-completed-exercise-component',
-  imports: [CommonModule, Dialog, TabsModule, AccordionModule, TableModule, TreeTableModule, CardModule, Chip],
+  imports: [CommonModule, Dialog, TabsModule, AccordionModule, TableModule, TreeTableModule, CardModule, Chip, OccasionFormComponent],
   templateUrl: './list-completed-exercise-component.html',
   styleUrl: './list-completed-exercise-component.scss'
 })

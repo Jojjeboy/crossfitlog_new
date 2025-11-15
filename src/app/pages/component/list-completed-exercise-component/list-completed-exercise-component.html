@@ -103,7 +103,7 @@
                         <div class="flex justify-center">
                                 @for (occ of selectedExcercise?.occasion; track $index) {
                                         <div class="prev-result">
-                                            <h5>{{ occ.date | date: 'd MMM' }}</h5>
+                                            <h5>{{ occ.date | date: 'd MMM yyyy' }}</h5>
                                             <table role="table" class="p-datatable-table">
                                                 <thead>
                                                     <tr>
@@ -124,7 +124,7 @@
 
                                                 <tfoot>
                                                     <tr>
-                                                        <td colspan="3">Anteckningar: {{ occ.note }} </td>
+                                                        <td colspan="3">{{ occ.note }} </td>
                                                     </tr>
 
                                             </table>
@@ -133,7 +133,7 @@
                         </div>
                     </p-tabpanel>
                     <p-tabpanel value="1">
-asdasd
+                        <app-occasion-form-component></app-occasion-form-component>
                     </p-tabpanel>
                 </p-tabpanels>
             </p-tabs>
