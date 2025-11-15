@@ -10,10 +10,6 @@ import { TreeTableModule } from "primeng/treetable";
 import { CardModule } from 'primeng/card';
 import { Chip } from 'primeng/chip';
 
-
-
-
-
 @Component({
   selector: 'app-list-completed-exercise-component',
   imports: [CommonModule, Dialog, TabsModule, AccordionModule, TableModule, TreeTableModule, CardModule, Chip],

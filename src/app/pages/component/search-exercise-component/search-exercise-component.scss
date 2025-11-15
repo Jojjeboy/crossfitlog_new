@@ -3,32 +3,35 @@
 
     .flex.flex-col.gap-2 {
         position: relative;
-        input[type="text"]{
+
+        input[type="text"] {
             border: 1px solid #ccc;
             padding: 10px 12px;
             border-radius: 5px;
             font-size: 1.3em;
         }
+
         input[type=text]:focus {
             border: 1px solid #a8a8a8;
             outline: none;
         }
 
-        i{
+        i {
             position: absolute;
-            right: 12px;
-            top: 9px;
+            right: 9px;
+            top: 12px;
             color: #ccc;
-            font-size: 11px;
+            font-size: 20px;
         }
     }
 }
 
-.search-results{
+.search-results {
     li {
         min-height: 67px;
         border-top: 1px solid #e7e7e7;
-        &:first-child{
+
+        &:first-child {
             border: none;
         }
     }

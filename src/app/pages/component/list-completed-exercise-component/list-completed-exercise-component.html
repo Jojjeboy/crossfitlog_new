@@ -7,7 +7,6 @@
 <div class="search-results">
     <div class="col-span-12 xl:col-span-6">
         <ul class="p-0 mx-0 mt-0 mb-6 list-none">
-
             @for (exercise of completedExercises; track $index) {
             <li class="flex items-center py-2 result-item">
                 @if(showGifNr === ($index + 1)){
@@ -45,9 +44,9 @@
         <div>
             <p-tabs value="0">
                 <p-tablist>
-                    <p-tab value="0">Övning</p-tab>
-                    <p-tab value="1">Registrera</p-tab>
-                    <p-tab value="2">Tidigare resultat</p-tab>
+                    <p-tab value="0">Exercise</p-tab>
+                    <p-tab value="1">Log</p-tab>
+                    <p-tab value="2">Previous results</p-tab>
                 </p-tablist>
                 <p-tabpanels>
                     <p-tabpanel value="0">
@@ -56,38 +55,44 @@
                         <div class="mb-4 p-8 flex items-center justify-center">
                             <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
                                 <ng-template #header>
-                                    <img alt="Card" class="w-full"
-                                        [src]="selectedExcercise?.exercise?.gifUrl" />
+                                    <img alt="Card" class="w-full" [src]="selectedExcercise?.exercise?.gifUrl" />
                                 </ng-template>
                                 <ng-template #title> {{ selectedExcercise?.exercise?.name | titlecase}} </ng-template>
-                                <ng-template #subtitle> {{ selectedExcercise?.exercise?.bodyParts?.join(', ') | titlecase }}
-                                    
+                                <ng-template #subtitle>
+                                    <div class="flex">
+                                        <span class="span-flex-50 col-span-6 w-full text-xl text-muted-color">{{ selectedExcercise?.exercise?.bodyParts?.join(', ') |
+                                        titlecase }} trained with {{ selectedExcercise?.exercise?.equipments?.join(',') }}</span>
+                                        
+                                    </div>
                                     <div class="flex items-center gap-2 flex-wrap chips">
                                         @for (target of selectedExcercise?.exercise?.targetMuscles; track $index) {
-                                            <p-chip class="target" [label]="target | titlecase" />
+                                        <p-chip class="target" [label]="target | titlecase" />
                                         }
                                         @for (target of selectedExcercise?.exercise?.secondaryMuscles; track $index) {
-                                            <p-chip class="secondary" [label]="target | titlecase" />
+                                        <p-chip class="secondary" [label]="target | titlecase" />
                                         }
                                     </div>
 
                                 </ng-template>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur
-                                    error repudiandae numquam deserunt
-                                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis
-                                    esse, cupiditate neque quas!
-                                </p>
+                                
                                 <ng-template #footer>
                                     <div class="flex gap-4 mt-1">
 
                                     </div>
                                 </ng-template>
+                                
+                                <div class="instructions">
+                                    <h5>Instructions</h5>
+                                    <ul>
+                                        @for (instr of selectedExcercise?.exercise?.instructions; track $index) {                            
+                                            <li>{{ instr }}</li>
+                                        }
+                                    </ul>
+                                </div>
                             </p-card>
                         </div>
 
-                        <pre>{{ selectedExcercise | json }}</pre>
-                        
+
                     </p-tabpanel>
                     <p-tabpanel value="1">
                         <p class="m-0">
@@ -95,14 +100,10 @@
                         </p>
                     </p-tabpanel>
                     <p-tabpanel value="2">
-
                         <div class="flex justify-center">
-                            <p-accordion value="0">
                                 @for (occ of selectedExcercise?.occasion; track $index) {
-                                <p-accordion-panel [value]="$index">
-                                    <p-accordion-header>{{ occ.date| date: 'd MMM yyyy' }}</p-accordion-header>
-                                    <p-accordion-content>
-                                        <div>
+                                        <div class="prev-result">
+                                            <h5>{{ occ.date | date: 'd MMM' }}</h5>
                                             <table role="table" class="p-datatable-table">
                                                 <thead>
                                                     <tr>
@@ -128,15 +129,11 @@
 
                                             </table>
                                         </div>
-
-                                    </p-accordion-content>
-                                </p-accordion-panel>
                                 }
-                            </p-accordion>
                         </div>
                     </p-tabpanel>
                     <p-tabpanel value="1">
-
+asdasd
                     </p-tabpanel>
                 </p-tabpanels>
             </p-tabs>
