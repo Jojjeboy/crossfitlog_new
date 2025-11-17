@@ -1,0 +1,26 @@
+.flex-auto {
+    label {
+        display: block;
+        padding-bottom: 5px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .p-datepicker{
+        min-width: 100%;
+    }
+
+
+}
+
+:host ::ng-deep input, :host ::ng-deep p-datepicker input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding-left: 0;
+    border-radius: inherit;
+    box-shadow: none;
+    margin: 3px 0 30px 0;
+    outline: none;
+}

@@ -7,13 +7,14 @@ import { DatePickerModule } from 'primeng/datepicker';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { ButtonModule } from 'primeng/button';
 import { Badge } from "primeng/badge";
+import { CommonModule } from '@angular/common';
 
 
 
 
 @Component({
   selector: 'app-occasion-form-component',
-  imports: [ReactiveFormsModule, DatePickerModule, InputNumberModule, ButtonModule, Badge],
+  imports: [ReactiveFormsModule, DatePickerModule, InputNumberModule, ButtonModule, Badge, CommonModule],
   templateUrl: './occasion-form-component.html',
   styleUrl: './occasion-form-component.scss'
 })
