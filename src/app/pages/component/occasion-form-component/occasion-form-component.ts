@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, Validators, AbstractControl } from '@angular/forms';
 import { CompletedOccasion } from '../../models/completedOccasion.interface'
 import { CompletedSet } from "../../models/completedSets.interface";
@@ -8,6 +8,7 @@ import { InputNumberModule } from 'primeng/inputnumber';
 import { ButtonModule } from 'primeng/button';
 import { Badge } from "primeng/badge";
 import { CommonModule } from '@angular/common';
+import { ExerciseService } from '@/pages/service/exercise.service';
 
 
 
@@ -25,12 +26,22 @@ export class OccasionFormComponent implements OnInit {
   occasionForm!: FormGroup;
   maxDate: Date | undefined;
 
+  @Input() lookUpId?: string;
 
-  constructor(private fb: FormBuilder) { }
 
+
+  constructor(
+    private fb: FormBuilder,
+    private exerciseService: ExerciseService
+  ) { }
+
+  /**
+   * Initializes the component, sets the maximum selectable date to today,
+   * and creates the main form structure.
+   */
   ngOnInit(): void {
     let today = new Date();
-
+    
     this.maxDate = new Date();
     this.maxDate.setDate(today.getDate());
     this.maxDate.setMonth(today.getMonth());
@@ -44,12 +55,20 @@ export class OccasionFormComponent implements OnInit {
     });
   }
 
-  // Getter för att enkelt komma åt FormArray-kontrollen i HTML
+  /**
+   * Getter for easy access to the 'occasions' FormArray from the template.
+   * @returns {FormArray} The FormArray controlling the list of occasions.
+   */
   get occasions(): FormArray {
     return this.occasionForm.get('occasions') as FormArray;
   }
 
-  // Skapar en FormGroup för ett enskilt CompletedOccasion
+  /**
+   * Creates a FormGroup for a single occasion.
+   * Each occasion includes a date, an optional note, and an array of sets.
+   * It starts with one set by default.
+   * @returns {FormGroup} A new FormGroup for an occasion.
+   */
   createOccasionGroup(): FormGroup {
     return this.fb.group({
       // date måste vara null/tom för att passa PrimeNG Calendar (Date/string)
@@ -61,7 +80,11 @@ export class OccasionFormComponent implements OnInit {
     });
   }
 
-  // Skapar en FormGroup för ett enskilt CompletedSet (reps & weight)
+  /**
+   * Creates a FormGroup for a single set, including reps and weight.
+   * Both fields are required.
+   * @returns {FormGroup} A new FormGroup for a set.
+   */
   createSetGroup(): FormGroup {
     return this.fb.group({
       reps: [null, [Validators.required, Validators.min(1)]],
@@ -71,35 +94,73 @@ export class OccasionFormComponent implements OnInit {
 
   // --- Metoder för att manipulera Occasions (Tillfällen) ---
 
+  /**
+   * Adds a new occasion group to the 'occasions' FormArray.
+   */
   addOccasion(): void {
     this.occasions.push(this.createOccasionGroup());
   }
 
+  /**
+   * Removes an occasion from the 'occasions' FormArray at a specific index.
+   * @param {number} occasionIndex The index of the occasion to remove.
+   */
   removeOccasion(occasionIndex: number): void {
     this.occasions.removeAt(occasionIndex);
   }
 
   // --- Metoder för att manipulera Sets ---
 
-  // Hämta FormArray för sets inom ett specifikt tillfälle
+  /**
+   * Retrieves the 'sets' FormArray from a given occasion's FormGroup.
+   * @param {AbstractControl} occasionControl The FormGroup for a specific occasion.
+   * @returns {FormArray} The FormArray for the sets within that occasion.
+   */
   getSets(occasionControl: AbstractControl): FormArray {
     return occasionControl.get('sets') as FormArray;
   }
 
+  /**
+   * Adds a new set group to the 'sets' FormArray of a specific occasion.
+   * @param {AbstractControl} occasionControl The FormGroup for the occasion where the set will be added.
+   */
   addSet(occasionControl: AbstractControl): void {
     this.getSets(occasionControl).push(this.createSetGroup());
   }
 
+  /**
+   * Removes a set from the 'sets' FormArray of a specific occasion.
+   * @param {AbstractControl} occasionControl The FormGroup for the occasion.
+   * @param {number} setIndex The index of the set to remove.
+   */
   removeSet(occasionControl: AbstractControl, setIndex: number): void {
     this.getSets(occasionControl).removeAt(setIndex);
   }
 
-  // --- Hantera sparning ---
 
+  /**
+   * Counts the number of sets within a given occasion's FormGroup.
+   * @param {AbstractControl} occasionControl The FormGroup for a specific occasion.
+   * @returns {number} The total number of sets for that occasion.
+   */
+  countSets(occasionControl: AbstractControl): number {
+    const sets = this.getSets(occasionControl).value;
+    if (sets && Array.isArray(sets)) {
+      return sets.length;
+    }
+    return 0;
+  }
+
+  /**
+   * Handles the form submission.
+   * If the form is valid, it logs the form data.
+   * If the form is invalid, it logs an error and marks all fields as touched to display validation errors.
+   */
   onSubmit(): void {
     if (this.occasionForm.valid) {
       const formValue = this.occasionForm.value;
       console.log('Sparad data:', formValue);
+      this.exerciseService.addCompletedExercise(this.lookUpId as string, formValue.occasions);
 
       // Här skulle du normalt skicka formValue.occasions till din backend
 
@@ -109,4 +170,7 @@ export class OccasionFormComponent implements OnInit {
       this.occasionForm.markAllAsTouched();
     }
   }
+
+
+
 }

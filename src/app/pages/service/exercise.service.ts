@@ -7,6 +7,7 @@ import { Exercise } from '../models/exercise.interface';
 import { ExerciseModel } from '../models/exercise.model';
 import { CompletedExerciseModel } from '../models/completedExercise.model';
 import { CompletedExercise } from '../models/completedExercise.interface';
+import { CompletedOccasion } from '../models/completedOccasion.interface';
 
 
 @Injectable({
@@ -163,6 +164,32 @@ export class ExerciseService implements OnDestroy{
         exerciseToDisplay || this.createEmptyExerciseModel(),        
         completedExercise.occasion
     );
+  }
+
+  /**
+   * Creates a new CompletedExerciseModel from an occasion and adds it to the state.
+   * This method updates the completedExerciseSubject with the new list of completed exercises.
+   * @param {string} exerciseId The ID of the exercise that was completed.
+   * @param {CompletedOccasion} occasion The completed occasion data.
+   */
+  addCompletedExercise(lookupId: string, occasion: CompletedOccasion): void {
+    const exercise = this.getItemById(lookupId);
+    if (!exercise) {
+      console.error(`Could not find exercise with ID: ${lookupId}`);
+      return;
+    }
+
+    // Create a new model for the completed exercise.
+    const newCompletedExercise = new CompletedExerciseModel(
+      crypto.randomUUID(), // Generate a unique ID for this completion
+      lookupId,
+      exercise,
+      []
+    );
+    newCompletedExercise.addOccasion(occasion);
+
+    const currentCompleted = this.completedExerciseSubject.getValue();
+    this.completedExerciseSubject.next([...currentCompleted, newCompletedExercise]);
   }
 
   private toExerciseModel(exercise: Exercise): ExerciseModel {

@@ -133,7 +133,7 @@
                         </div>
                     </p-tabpanel>
                     <p-tabpanel value="1">
-                        <app-occasion-form-component></app-occasion-form-component>
+                        <app-occasion-form-component [lookUpId]="selectedExcercise?.exercise?.exerciseId"></app-occasion-form-component>
                     </p-tabpanel>
                 </p-tabpanels>
             </p-tabs>
