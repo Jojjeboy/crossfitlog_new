@@ -39,7 +39,7 @@ export class ExerciseService implements OnDestroy{
   }
 
   loadFromStorage(): void{
-    // Vi kollar först om data finns, annars försöker vi inte ladda historiken.
+    // Vi kollar först om övningsdatabasen är laddad, annars kan vi inte mappa historik korrekt.
     if (!this.isLoaded) {
         console.warn('Försöker ladda historik innan övningsdatabasen är klar.');
         // Vi kan välja att kasta fel här, men vi låter den fortsätta för att undvika krasch.
@@ -200,6 +200,17 @@ export class ExerciseService implements OnDestroy{
       newCompletedExercise.addOccasion(occasion);
       this.completedExerciseSubject.next([...currentCompleted, newCompletedExercise]);
     }
+    this.saveCompletedExercises();
+  }
+
+  private saveCompletedExercises(): void {
+    const completedExercises = this.completedExerciseSubject.getValue();
+    const dataToSave = completedExercises.map(model => ({
+      uuid: model.uuid,
+      lookupId: model.lookupId,
+      occasion: model.occasion,
+    }));
+    this.storageService.set(this.key, dataToSave);
   }
 
   private toExerciseModel(exercise: Exercise): ExerciseModel {
