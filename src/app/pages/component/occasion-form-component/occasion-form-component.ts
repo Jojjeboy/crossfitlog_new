@@ -169,6 +169,7 @@ export class OccasionFormComponent implements OnInit {
       });
 
       // Här skulle du normalt skicka formValue.occasions till din backend
+      this.createSetGroup();
       this.occasionForm.reset();
       this.notifyParent.emit(formValue.toString());
 

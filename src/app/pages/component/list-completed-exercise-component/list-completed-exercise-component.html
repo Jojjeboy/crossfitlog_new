@@ -30,7 +30,6 @@
                         getLatestOccation(exercise.occasion) | date:"d MMM" }} </div>
                 </div>
             </li>
-            <pre>{{ exercise.occasion |json }}</pre>
             }
         </ul>
     </div>
@@ -45,9 +44,9 @@
         <div>
             <p-tabs value="0">
                 <p-tablist>
-                    <p-tab value="0">Exercise</p-tab>
-                    <p-tab value="1">Log</p-tab>
-                    <p-tab value="2">Previous results</p-tab>
+                    <p-tab value="0">Övning</p-tab>
+                    <p-tab value="1">Logga</p-tab>
+                    <p-tab value="2">Föregående</p-tab>
                 </p-tablist>
                 <p-tabpanels>
                     <p-tabpanel value="0">
@@ -83,7 +82,7 @@
                                 </ng-template>
                                 
                                 <div class="instructions">
-                                    <h5>Instructions</h5>
+                                    <h5>Instruktioner</h5>
                                     <ul>
                                         @for (instr of selectedExcercise?.exercise?.instructions; track $index) {                            
                                             <li>{{ instr }}</li>
@@ -114,18 +113,20 @@
                                                     </tr>
                                                 </thead>
 
+                                                <tbody>
                                                 @for (set of occ.sets; track $index) {
-                                                <tr>
+                                                    <tr>
 
                                                     <td>{{ ($index + 1) }}</td>
                                                     <td>{{ set.reps }}</td>
                                                     <td>{{ set.weight }}kg</td>
                                                 </tr>
                                                 }
+                                                </tbody>
 
                                                 <tfoot>
                                                     <tr>
-                                                        <td colspan="3">{{ occ.note }} </td>
+                                                        <td colspan="3">{{ occ.note !== '' ? occ.note : 'Inga anteckningar'}} </td>
                                                     </tr>
 
                                             </table>

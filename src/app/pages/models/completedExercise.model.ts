@@ -90,6 +90,6 @@ export class CompletedExerciseModel implements CompletedExercise {
      * @param set Det genomförda setet som ska läggas till.
      */
     public addOccasion(occasion: CompletedOccasion): void {
-        this._occasion.push(occasion);
+        this._occasion.unshift(occasion);
     }
 }
