@@ -1,0 +1,5 @@
+@if(isFavourite(exerciseId)){
+    <i class="pi pi-star-fill" (click)="toggleFavourite(exerciseId)"></i>
+} @else {
+    <i class="pi pi-star" (click)="toggleFavourite(exerciseId)"></i>
+}

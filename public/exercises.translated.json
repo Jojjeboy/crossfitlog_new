@@ -1,0 +1,724 @@
+[
+  {
+    "exerciseId": "trmte8s",
+    "name": "band shrug",
+    "gifUrl": "https://static.exercisedb.dev/media/trmte8s.gif",
+    "targetMuscles": ["traps"],
+    "bodyParts": ["neck"],
+    "equipments": ["band"],
+    "secondaryMuscles": ["shoulders"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och placera bandet under dina fötter, håll i ändarna med dina händer.",
+      "Steg:2 Håll armarna raka och avslappnade och låt bandet hänga framför dina lår.",
+      "Steg:3 Aktivera dina trapeziusmuskler genom att rycka axlarna uppåt, lyft bandet så högt som möjligt.",
+      "Steg:4 Håll kontraktionen ett ögonblick, sänk sedan långsamt ner axlarna till startpositionen igen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "LMGXZn8",
+    "name": "barbell decline close grip to skull press",
+    "gifUrl": "https://static.exercisedb.dev/media/LMGXZn8.gif",
+    "targetMuscles": ["triceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["chest", "shoulders"],
+    "instructions": [
+      "Steg:1 Ligg på en snedbänk med huvudet lägre än fötterna och håll en skivstång med ett smalt grepp.",
+      "Steg:2 Sänk skivstången mot pannan genom att böja armbågarna och hålla överarmarna stilla.",
+      "Steg:3 Pausa ett ögonblick, sträck sedan ut armarna för att pressa skivstången tillbaka upp till startpositionen.",
+      "Steg:4 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "0br45wL",
+    "name": "push-up inside leg kick",
+    "gifUrl": "https://static.exercisedb.dev/media/0br45wL.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["quadriceps", "hamstrings", "calves", "core"],
+    "instructions": [
+      "Steg:1 Börja i en armhävningsposition med händerna något bredare än axelbrett isär och fötterna ihop.",
+      "Steg:2 Sänk kroppen mot marken genom att böja armbågarna, håll ryggen rak och din core aktiverad.",
+      "Steg:3 När du trycker dig upp igen, lyft ena benet från marken och sparka ut det åt sidan, håll det rakt.",
+      "Steg:4 Sänk ner benet igen och upprepa armhävningen, byt sedan till det andra benet.",
+      "Steg:5 Fortsätt att växla bensparkar med varje armhävningsrepetition."
+    ]
+  },
+  {
+    "exerciseId": "27NNGFr",
+    "name": "cable incline fly (on stability ball)",
+    "gifUrl": "https://static.exercisedb.dev/media/27NNGFr.gif",
+    "targetMuscles": ["pectorals"],
+    "bodyParts": ["chest"],
+    "equipments": ["cable"],
+    "secondaryMuscles": ["deltoids", "triceps"],
+    "instructions": [
+      "Steg:1 Ställ in en stabilitetsboll i en lutande vinkel.",
+      "Steg:2 Fäst kabelhandtagen vid de höga trissorna på en kabelmaskin.",
+      "Steg:3 Sitt på stabilitetsbollen vänd bort från maskinen, med fötterna stadigt planterade på marken.",
+      "Steg:4 Greppa kabelhandtagen med ett överhandsgrepp, handflatorna vända framåt.",
+      "Steg:5 Luta dig framåt något, håll ryggen rak och din core aktiverad.",
+      "Steg:6 Med en kontrollerad rörelse, för ut armarna åt sidorna, håll en lätt böjning i armbågarna.",
+      "Steg:7 Fortsätt rörelsen tills armarna är parallella med marken.",
+      "Steg:8 Pausa ett ögonblick, återgå sedan långsamt till startpositionen.",
+      "Steg:9 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "a4F9Oyc",
+    "name": "kettlebell double alternating hang clean",
+    "gifUrl": "https://static.exercisedb.dev/media/a4F9Oyc.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["kettlebell"],
+    "secondaryMuscles": ["forearms", "shoulders"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär, håll en kettlebell i varje hand med ett överhandsgrepp.",
+      "Steg:2 Böj knäna något och fäll framåt i höften, håll ryggen rak och bröstet uppåt.",
+      "Steg:3 Låt kettlebellarna hänga rakt ner framför kroppen.",
+      "Steg:4 I en flytande rörelse, sträck ut höfter och knän explosivt samtidigt som du rycker axlarna.",
+      "Steg:5 När kettlebellarna stiger, dra upp dem mot axlarna, håll armbågarna högt och utåt sidorna.",
+      "Steg:6 Fånga kettlebellarna i axelhöjd, med handflatorna vända inåt och armbågarna pekande framåt.",
+      "Steg:7 Sänk ner kettlebellarna tillbaka till startpositionen och upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "ecl28tP",
+    "name": "dumbbell contralateral forward lunge",
+    "gifUrl": "https://static.exercisedb.dev/media/ecl28tP.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["quadriceps", "hamstrings", "calves"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll en hantel i varje hand.",
+      "Steg:2 Ta ett steg framåt med din högra fot, håll ryggen rak och din core aktiverad.",
+      "Steg:3 Sänk kroppen genom att böja båda knäna tills ditt högra lår är parallellt med marken.",
+      "Steg:4 Tryck igenom din högra häl för att återgå till startpositionen.",
+      "Steg:5 Upprepa med ditt vänstra ben.",
+      "Steg:6 Växla ben för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "wnEscH8",
+    "name": "barbell press sit-up",
+    "gifUrl": "https://static.exercisedb.dev/media/wnEscH8.gif",
+    "targetMuscles": ["abs"],
+    "bodyParts": ["waist"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["shoulders", "chest"],
+    "instructions": [
+      "Steg:1 Ligg platt på rygg på en matta med böjda knän och fötterna platt på marken.",
+      "Steg:2 Håll skivstången med ett överhandsgrepp, vila den på bröstet.",
+      "Steg:3 Aktivera magmusklerna och lyft långsamt överkroppen från marken, rulla framåt tills din överkropp är i en 45-graders vinkel.",
+      "Steg:4 Pausa ett ögonblick i toppen, sänk sedan långsamt ner överkroppen till startpositionen igen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "gVlnLIJ",
+    "name": "cable reverse one arm curl",
+    "gifUrl": "https://static.exercisedb.dev/media/gVlnLIJ.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["cable"],
+    "secondaryMuscles": ["forearms"],
+    "instructions": [
+      "Steg:1 Stå vänd mot en kabelmaskin med fötterna axelbrett isär.",
+      "Steg:2 Greppa kabelhandtaget med ett underhandsgrepp, handflatan vänd nedåt.",
+      "Steg:3 Håll armbågen nära sidan och curla långsamt upp underarmen mot axeln.",
+      "Steg:4 Pausa ett ögonblick i toppen, sänk sedan långsamt ner underarmen till startpositionen igen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "mtXengz",
+    "name": "dumbbell finger curls",
+    "gifUrl": "https://static.exercisedb.dev/media/mtXengz.gif",
+    "targetMuscles": ["forearms"],
+    "bodyParts": ["lower arms"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["wrist flexors", "wrist extensors"],
+    "instructions": [
+      "Steg:1 Sitt på en bänk eller stol med fötterna platt på marken och rak rygg.",
+      "Steg:2 Håll en hantel i ena handen med ett underhandsgrepp, vila underarmen på låret, handflatan vänd uppåt.",
+      "Steg:3 Låt hanteln rulla ner till fingertopparna, curla den sedan tillbaka upp genom att böja fingrarna.",
+      "Steg:4 Upprepa för önskat antal repetitioner, byt sedan till den andra handen."
+    ]
+  },
+  {
+    "exerciseId": "kuMiR2T",
+    "name": "band stiff leg deadlift",
+    "gifUrl": "https://static.exercisedb.dev/media/kuMiR2T.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["band"],
+    "secondaryMuscles": ["hamstrings", "lower back"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och placera bandet runt dina anklar.",
+      "Steg:2 Håll bandet med båda händerna framför låren, handflatorna vända mot kroppen.",
+      "Steg:3 Håll ryggen rak och din core aktiverad, fäll framåt i höften och sänk långsamt överkroppen mot marken.",
+      "Steg:4 När du sänker dig, skjut höfterna bakåt och låt knäna böjas lätt.",
+      "Steg:5 Sänk bandet mot marken och känn en stretch i dina hamstrings.",
+      "Steg:6 Pausa ett ögonblick i botten, aktivera sedan dina glutes och hamstrings för att lyfta överkroppen tillbaka upp till startpositionen.",
+      "Steg:7 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "ZA8b5hc",
+    "name": "kettlebell goblet squat",
+    "gifUrl": "https://static.exercisedb.dev/media/ZA8b5hc.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["kettlebell"],
+    "secondaryMuscles": ["quadriceps", "hamstrings", "calves"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll en kettlebell nära bröstet med båda händerna.",
+      "Steg:2 Håll bröstet uppåt och din core aktiverad, sänk kroppen ner i en knäböjsposition genom att böja knäna och höfterna.",
+      "Steg:3 Fortsätt sänka tills låren är parallella med marken, eller så lågt du bekvämt kan gå.",
+      "Steg:4 Pausa ett ögonblick i botten, tryck sedan igenom hälarna för att återgå till startpositionen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "DOoWcnA",
+    "name": "lever chest press",
+    "gifUrl": "https://static.exercisedb.dev/media/DOoWcnA.gif",
+    "targetMuscles": ["pectorals"],
+    "bodyParts": ["chest"],
+    "equipments": ["leverage machine"],
+    "secondaryMuscles": ["triceps", "shoulders"],
+    "instructions": [
+      "Steg:1 Justera säteshöjden och placera dig på maskinen med ryggen platt mot dynan.",
+      "Steg:2 Greppa handtagen med ett överhandsgrepp och placera armbågarna i en 90-graders vinkel.",
+      "Steg:3 Tryck handtagen framåt tills armarna är helt utsträckta, andas ut under rörelsen.",
+      "Steg:4 Pausa kort i slutet av rörelsen, återgå sedan långsamt till startpositionen, andas in samtidigt.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "F3xgbjF",
+    "name": "dumbbell incline biceps curl",
+    "gifUrl": "https://static.exercisedb.dev/media/F3xgbjF.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["forearms"],
+    "instructions": [
+      "Steg:1 Sitt på en snedbänk med en hantel i varje hand, handflatorna vända framåt och armarna helt utsträckta.",
+      "Steg:2 Håll överarmarna stilla, andas ut och curla vikterna samtidigt som du spänner dina biceps.",
+      "Steg:3 Fortsätt att lyfta hantlarna tills dina biceps är helt spända och hantlarna är i axelhöjd.",
+      "Steg:4 Håll den spända positionen under en kort paus medan du klämmer åt dina biceps.",
+      "Steg:5 Andas in och börja långsamt sänka hantlarna tillbaka till startpositionen.",
+      "Steg:6 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "ZZTGMKh",
+    "name": "one arm against wall",
+    "gifUrl": "https://static.exercisedb.dev/media/ZZTGMKh.gif",
+    "targetMuscles": ["lats"],
+    "bodyParts": ["back"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["shoulders", "triceps"],
+    "instructions": [
+      "Steg:1 Stå vänd mot en vägg med fötterna axelbrett isär.",
+      "Steg:2 Sträck ut ena armen rakt framför dig och placera handflatan mot väggen.",
+      "Steg:3 Aktivera din core och luta kroppen framåt, håll armen rak och ryggen platt.",
+      "Steg:4 Tryck långsamt mot väggen med handflatan, aktivera dina latsmuskler.",
+      "Steg:5 Håll positionen i några sekunder, släpp sedan och upprepa med den andra armen."
+    ]
+  },
+  {
+    "exerciseId": "T2fA5Ir",
+    "name": "squat on bosu ball",
+    "gifUrl": "https://static.exercisedb.dev/media/T2fA5Ir.gif",
+    "targetMuscles": ["quads"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["bosu ball"],
+    "secondaryMuscles": ["glutes", "hamstrings", "calves"],
+    "instructions": [
+      "Steg:1 Placera bosu-bollen på marken med den platta sidan uppåt.",
+      "Steg:2 Stå med fötterna axelbrett isär och placera dig ovanpå bosu-bollen.",
+      "Steg:3 Sänk kroppen genom att böja knäna och höfterna, som om du skulle sätta dig på en stol.",
+      "Steg:4 Håll bröstet uppåt och din vikt på hälarna.",
+      "Steg:5 Sänk dig tills låren är parallella med marken.",
+      "Steg:6 Pausa ett ögonblick, tryck sedan igenom hälarna för att återgå till startpositionen.",
+      "Steg:7 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "x6KpKpq",
+    "name": "close-grip push-up",
+    "gifUrl": "https://static.exercisedb.dev/media/x6KpKpq.gif",
+    "targetMuscles": ["triceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["chest", "shoulders"],
+    "instructions": [
+      "Steg:1 Börja i en hög plankposition med händerna placerade nära varandra, direkt under axlarna.",
+      "Steg:2 Aktivera din core och sänk kroppen mot marken, håll armbågarna nära sidorna.",
+      "Steg:3 Tryck igenom handflatorna för att sträcka ut armarna och återgå till startpositionen.",
+      "Steg:4 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "84RyJf8",
+    "name": "dumbbell one arm shoulder press",
+    "gifUrl": "https://static.exercisedb.dev/media/84RyJf8.gif",
+    "targetMuscles": ["delts"],
+    "bodyParts": ["shoulders"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["triceps", "upper back"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll en hantel i ena handen i axelhöjd, handflatan vänd framåt.",
+      "Steg:2 Pressa hanteln uppåt tills armen är helt utsträckt över huvudet.",
+      "Steg:3 Pausa ett ögonblick i toppen, sänk sedan långsamt ner hanteln till startpositionen igen.",
+      "Steg:4 Upprepa för önskat antal repetitioner, byt sedan till den andra armen."
+    ]
+  },
+  {
+    "exerciseId": "UKWTJWR",
+    "name": "cable standing up straight crossovers",
+    "gifUrl": "https://static.exercisedb.dev/media/UKWTJWR.gif",
+    "targetMuscles": ["pectorals"],
+    "bodyParts": ["chest"],
+    "equipments": ["cable"],
+    "secondaryMuscles": ["deltoids", "triceps"],
+    "instructions": [
+      "Steg:1 Stå i mitten av en kabelmaskin med fötterna axelbrett isär.",
+      "Steg:2 Håll i handtagen på kablarna med handflatorna vända nedåt och armarna utsträckta rakt ut åt sidorna.",
+      "Steg:3 Håll armarna raka, för ihop händerna framför kroppen och korsa dem över varandra.",
+      "Steg:4 Pausa ett ögonblick, återgå sedan långsamt till startpositionen, håll armarna utsträckta.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "obe5LMq",
+    "name": "band side triceps extension",
+    "gifUrl": "https://static.exercisedb.dev/media/obe5LMq.gif",
+    "targetMuscles": ["triceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["band"],
+    "secondaryMuscles": ["shoulders"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll bandet med båda händerna, handflatorna vända nedåt.",
+      "Steg:2 Sträck ut armarna rakt ut åt sidorna, håll dem parallella med marken.",
+      "Steg:3 Böj långsamt armbågarna och för händerna mot axlarna, håll överarmarna stilla.",
+      "Steg:4 Pausa ett ögonblick, sträck sedan långsamt ut armarna tillbaka till startpositionen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "IpONWYv",
+    "name": "dumbbell side bend",
+    "gifUrl": "https://static.exercisedb.dev/media/IpONWYv.gif",
+    "targetMuscles": ["abs"],
+    "bodyParts": ["waist"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["obliques"],
+    "instructions": [
+      "Steg:1 Stå rakt upp med fötterna axelbrett isär och håll en hantel i ena handen, låt den hänga ner längs sidan.",
+      "Steg:2 Håll ryggen rak och din core aktiverad, böj dig långsamt i midjan åt sidan mot motsatt sida av hanteln, sänk vikten så långt du bekvämt kan.",
+      "Steg:3 Pausa ett ögonblick, återgå sedan långsamt till startpositionen.",
+      "Steg:4 Upprepa för önskat antal repetitioner, byt sedan sida och upprepa."
+    ]
+  },
+  {
+    "exerciseId": "H6ybluc",
+    "name": "dumbbell single leg squat",
+    "gifUrl": "https://static.exercisedb.dev/media/H6ybluc.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["quadriceps", "hamstrings", "calves"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll en hantel i varje hand.",
+      "Steg:2 Sträck ut ena benet framåt och håll det från marken under hela övningen.",
+      "Steg:3 Böj ditt stående ben och sänk kroppen ner som om du skulle sätta dig på en stol.",
+      "Steg:4 Håll bröstet uppåt och ryggen rak.",
+      "Steg:5 Pausa ett ögonblick i botten, tryck sedan igenom hälen för att återgå till startpositionen.",
+      "Steg:6 Upprepa för önskat antal repetitioner, byt sedan ben."
+    ]
+  },
+  {
+    "exerciseId": "REXmfVC",
+    "name": "sledge hammer",
+    "gifUrl": "https://static.exercisedb.dev/media/REXmfVC.gif",
+    "targetMuscles": ["abs"],
+    "bodyParts": ["waist"],
+    "equipments": ["hammer"],
+    "secondaryMuscles": ["forearms", "shoulders"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll släggn med båda händerna.",
+      "Steg:2 Aktivera din core och håll ryggen rak.",
+      "Steg:3 Svinga släggn ner mot marken, använd din core- och överkroppsstyrka.",
+      "Steg:4 När du svingar ner, vrid höfterna och överför kraften till släggn.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "DhMl549",
+    "name": "barbell full squat (back pov)",
+    "gifUrl": "https://static.exercisedb.dev/media/DhMl549.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["quadriceps", "hamstrings", "calves", "core"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär, tårna lätt vinklade utåt.",
+      "Steg:2 Håll skivstången över övre delen av ryggen, vilande på dina trapeziusmuskler eller bakre deltamuskler.",
+      "Steg:3 Aktivera din core och håll bröstet uppåt när du börjar sänka kroppen.",
+      "Steg:4 Böj knäna och höfterna, skjut höfterna bakåt och nedåt som om du skulle sätta dig på en stol.",
+      "Steg:5 Sänk kroppen tills låren är parallella med marken eller något under.",
+      "Steg:6 Håll knäna i linje med tårna och din vikt i hälarna.",
+      "Steg:7 Driv igenom hälarna för att stå upp igen, sträck ut höfterna och knäna.",
+      "Steg:8 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "72BC5Za",
+    "name": "archer pull up",
+    "gifUrl": "https://static.exercisedb.dev/media/72BC5Za.gif",
+    "targetMuscles": ["lats"],
+    "bodyParts": ["back"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["biceps", "forearms"],
+    "instructions": [
+      "Steg:1 Börja med att hänga från en pull-up-stång med ett överhandsgrepp, något bredare än axelbrett isär.",
+      "Steg:2 Aktivera din core och dra ner skulderbladen och bakåt.",
+      "Steg:3 När du drar dig upp, böj ena armen och för armbågen mot sidan, samtidigt som du håller den andra armen rak.",
+      "Steg:4 Fortsätt dra tills hakan är över stången och din böjda arm är helt flekterad.",
+      "Steg:5 Sänk dig tillbaka ner med kontroll, räta ut den böjda armen och upprepa rörelsen på den andra sidan.",
+      "Steg:6 Växla sidor med varje repetition."
+    ]
+  },
+  {
+    "exerciseId": "qRZ5S1N",
+    "name": "cable one arm tricep pushdown",
+    "gifUrl": "https://static.exercisedb.dev/media/qRZ5S1N.gif",
+    "targetMuscles": ["triceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["cable"],
+    "secondaryMuscles": ["forearms"],
+    "instructions": [
+      "Steg:1 Stå vänd mot en kabelmaskin med ett rakt stångfäste i brösthöjd.",
+      "Steg:2 Greppa stången med ett överhandsgrepp och ta ett steg bakåt för att skapa spänning i kabeln.",
+      "Steg:3 Placera fötterna axelbrett isär och böj knäna lätt.",
+      "Steg:4 Håll ryggen rak och din core aktiverad under hela övningen.",
+      "Steg:5 Börja med armen helt utsträckt och vinkelrät mot golvet.",
+      "Steg:6 Håll överarmen stilla, andas ut och tryck ner stången tills armen är helt utsträckt.",
+      "Steg:7 Pausa ett ögonblick, andas sedan in och återgå långsamt till startpositionen.",
+      "Steg:8 Upprepa för önskat antal repetitioner, byt sedan armar."
+    ]
+  },
+  {
+    "exerciseId": "PnZJIrk",
+    "name": "assisted wide-grip chest dip (kneeling)",
+    "gifUrl": "https://static.exercisedb.dev/media/PnZJIrk.gif",
+    "targetMuscles": ["pectorals"],
+    "bodyParts": ["chest"],
+    "equipments": ["leverage machine"],
+    "secondaryMuscles": ["triceps", "shoulders"],
+    "instructions": [
+      "Steg:1 Justera maskinen till önskad höjd och säkra dina knän på dynan.",
+      "Steg:2 Greppa handtagen med ett brett grepp och håll armbågarna lätt böjda.",
+      "Steg:3 Sänk kroppen genom att böja armbågarna tills överarmarna är parallella med golvet.",
+      "Steg:4 Tryck dig själv tillbaka upp till startpositionen genom att sträcka ut armarna.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "H1PESYI",
+    "name": "stationary bike run",
+    "gifUrl": "https://static.exercisedb.dev/media/H1PESYI.gif",
+    "targetMuscles": ["cardiovascular system"],
+    "bodyParts": ["cardio"],
+    "equipments": ["stationary bike"],
+    "secondaryMuscles": ["quadriceps", "hamstrings", "calves"],
+    "instructions": [
+      "Steg:1 Justera säteshöjden och positionen för att säkerställa korrekt inriktning.",
+      "Steg:2 Placera fötterna på pedalerna och säkra dem med remmarna om sådana finns.",
+      "Steg:3 Börja trampa i ett bekvämt tempo.",
+      "Steg:4 Bibehåll en stadig rytm och öka motståndet efter önskemål.",
+      "Steg:5 Aktivera dina core-muskler för att bibehålla stabilitet och korrekt hållning.",
+      "Steg:6 Fortsätt trampa under önskad varaktighet av ditt träningspass.",
+      "Steg:7 Minska gradvis motståndet och sakta ner innan du stannar helt.",
+      "Steg:8 Sträck ut benen och varva ner efter träningspasset."
+    ]
+  },
+  {
+    "exerciseId": "KXyoEtA",
+    "name": "dumbbell seated inner biceps curl",
+    "gifUrl": "https://static.exercisedb.dev/media/KXyoEtA.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["forearms"],
+    "instructions": [
+      "Steg:1 Sitt på en bänk med fötterna platt på marken och håll en hantel i varje hand, handflatorna vända uppåt.",
+      "Steg:2 Vila överarmarna på låren, låt hantlarna hänga ner.",
+      "Steg:3 Håll överarmarna stilla, curla upp hantlarna mot axlarna genom att spänna dina biceps.",
+      "Steg:4 Pausa ett ögonblick i toppen, sänk sedan långsamt ner hantlarna till startpositionen igen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "CHpahtl",
+    "name": "lever seated hip abduction",
+    "gifUrl": "https://static.exercisedb.dev/media/CHpahtl.gif",
+    "targetMuscles": ["abductors"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["leverage machine"],
+    "secondaryMuscles": ["glutes", "hamstrings"],
+    "instructions": [
+      "Steg:1 Justera säteshöjden så att dina knän är i 90 graders vinkel.",
+      "Steg:2 Sitt på maskinen med ryggen mot ryggstödet och fötterna på fotstöden.",
+      "Steg:3 Placera händerna på sidohandtagen för stabilitet.",
+      "Steg:4 Aktivera dina abduktorer och tryck långsamt isär benen, bort från kroppens mittlinje.",
+      "Steg:5 Pausa ett ögonblick i slutet av rörelsen, för sedan långsamt ihop benen till startpositionen.",
+      "Steg:6 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "LQFOrMn",
+    "name": "chest dip on straight bar",
+    "gifUrl": "https://static.exercisedb.dev/media/LQFOrMn.gif",
+    "targetMuscles": ["pectorals"],
+    "bodyParts": ["chest"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["triceps", "shoulders"],
+    "instructions": [
+      "Steg:1 Greppa parallellstängerna med handflatorna nedåt och armarna helt utsträckta.",
+      "Steg:2 Böj knäna och korsa anklarna.",
+      "Steg:3 Sänk kroppen genom att böja armarna tills axlarna är under armbågarna.",
+      "Steg:4 Tryck dig själv tillbaka upp till startpositionen genom att räta ut armarna.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "33AzZeV",
+    "name": "barbell front raise and pullover",
+    "gifUrl": "https://static.exercisedb.dev/media/33AzZeV.gif",
+    "targetMuscles": ["pectorals"],
+    "bodyParts": ["chest"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["deltoids", "triceps"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och håll en skivstång med ett överhandsgrepp, handflatorna vända nedåt.",
+      "Steg:2 Håll armarna raka och höj skivstången framför dig tills den når axelhöjd.",
+      "Steg:3 Pausa ett ögonblick i toppen, sänk sedan långsamt ner skivstången till startpositionen igen.",
+      "Steg:4 Sänk sedan skivstången bakom huvudet, håll armarna raka.",
+      "Steg:5 Pausa ett ögonblick i botten, höj sedan skivstången tillbaka upp till startpositionen.",
+      "Steg:6 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "OeL23VY",
+    "name": "dumbbell seated biceps curl to shoulder press",
+    "gifUrl": "https://static.exercisedb.dev/media/OeL23VY.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["shoulders"],
+    "instructions": [
+      "Steg:1 Sitt på en bänk med rak rygg och fötterna platt på marken.",
+      "Steg:2 Håll en hantel i varje hand med handflatorna vända framåt och armarna helt utsträckta.",
+      "Steg:3 Håll armbågarna nära sidorna, curla upp hantlarna mot axlarna.",
+      "Steg:4 När underarmarna är vertikala, rotera handlederna så att handflatorna pekar framåt.",
+      "Steg:5 Pressa hantlarna över huvudet tills armarna är helt utsträckta.",
+      "Steg:6 Sänk ner hantlarna tillbaka till startpositionen genom att vända rörelsen.",
+      "Steg:7 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "SGY8Zui",
+    "name": "barbell clean and press",
+    "gifUrl": "https://static.exercisedb.dev/media/SGY8Zui.gif",
+    "targetMuscles": ["quads"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["hamstrings", "glutes", "shoulders", "triceps"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och skivstången på golvet framför dig.",
+      "Steg:2 Böj knäna och fäll i höften för att sänka dig ner och greppa skivstången med ett överhandsgrepp, händerna något bredare än axelbrett isär.",
+      "Steg:3 Driv igenom hälarna och sträck ut höfter och knän för att lyfta skivstången från golvet, håll den nära kroppen.",
+      "Steg:4 När skivstången når dina lår, sträck ut höfterna explosivt, ryck axlarna och dra skivstången upp mot bröstet.",
+      "Steg:5 När skivstången når brösthöjd, släpp dig snabbt under den och fånga den i axelhöjd, med armbågarna pekande framåt och handflatorna vända uppåt.",
+      "Steg:6 Från fångstpositionen, pressa skivstången över huvudet genom att sträcka ut armarna och trycka skivstången rakt upp.",
+      "Steg:7 Sänk ner skivstången tillbaka till startpositionen och upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "MrgP9L6",
+    "name": "lever rotary calf",
+    "gifUrl": "https://static.exercisedb.dev/media/MrgP9L6.gif",
+    "targetMuscles": ["calves"],
+    "bodyParts": ["lower legs"],
+    "equipments": ["leverage machine"],
+    "secondaryMuscles": ["soleus", "ankle stabilizers"],
+    "instructions": [
+      "Steg:1 Justera säteshöjden så att dina knän är lätt böjda och dina fötter är platta på fotplattan.",
+      "Steg:2 Placera tårna på fotplattan, med hälarna hängande utanför kanten.",
+      "Steg:3 Greppa handtagen eller sidorna av maskinen för stabilitet.",
+      "Steg:4 Tryck igenom fotbollarna och höj hälarna så högt som möjligt.",
+      "Steg:5 Pausa ett ögonblick i toppen, sänk sedan långsamt ner hälarna till startpositionen igen.",
+      "Steg:6 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "82LxxkW",
+    "name": "barbell wrist curl",
+    "gifUrl": "https://static.exercisedb.dev/media/82LxxkW.gif",
+    "targetMuscles": ["forearms"],
+    "bodyParts": ["lower arms"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["biceps", "brachialis"],
+    "instructions": [
+      "Steg:1 Sitt på en bänk med fötterna platt på marken och underarmarna vilande på låren, håll en skivstång med ett underhandsgrepp.",
+      "Steg:2 Låt skivstången rulla ner till fingertopparna, håll handlederna raka.",
+      "Steg:3 Curla långsamt upp skivstången mot underarmarna genom att böja handlederna.",
+      "Steg:4 Pausa ett ögonblick i toppen, sänk sedan långsamt ner skivstången till startpositionen igen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "RtyAsy1",
+    "name": "arms apart circular toe touch (male)",
+    "gifUrl": "https://static.exercisedb.dev/media/RtyAsy1.gif",
+    "targetMuscles": ["glutes"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["hamstrings", "quadriceps", "calves"],
+    "instructions": [
+      "Steg:1 Stå med fötterna axelbrett isär och armarna utsträckta åt sidorna.",
+      "Steg:2 Håll benen raka, böj dig framåt i midjan och sträck dig ner mot tårna med din högra hand.",
+      "Steg:3 När du sträcker dig ner, lyft samtidigt ditt vänstra ben rakt upp bakom dig, bibehåll balansen.",
+      "Steg:4 Återgå till startpositionen och upprepa rörelsen med din vänstra hand som sträcker sig mot tårna och ditt högra ben som lyfts upp bakom dig.",
+      "Steg:5 Fortsätt att växla sidor för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "VPPtusI",
+    "name": "inverted row bent knees",
+    "gifUrl": "https://static.exercisedb.dev/media/VPPtusI.gif",
+    "targetMuscles": ["upper back"],
+    "bodyParts": ["back"],
+    "equipments": ["body weight"],
+    "secondaryMuscles": ["biceps", "forearms"],
+    "instructions": [
+      "Steg:1 Ställ in en stång i midjehöjd och lägg dig under den.",
+      "Steg:2 Greppa stången med ett överhandsgrepp, något bredare än axelbrett isär.",
+      "Steg:3 Placera kroppen så att hälarna är på marken och kroppen är rak.",
+      "Steg:4 Dra bröstet upp mot stången genom att pressa ihop skulderbladen.",
+      "Steg:5 Pausa ett ögonblick i toppen, sänk sedan långsamt ner kroppen till startpositionen igen.",
+      "Steg:6 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "GNhAeJ0",
+    "name": "dumbbell hammer curls (with arm blaster)",
+    "gifUrl": "https://static.exercisedb.dev/media/GNhAeJ0.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["forearms"],
+    "instructions": [
+      "Steg:1 Stå rakt upp med en hantel i varje hand, handflatorna vända mot bålen.",
+      "Steg:2 Håll armbågarna nära bålen och rotera handflatorna tills de pekar framåt.",
+      "Steg:3 Detta är din startposition.",
+      "Steg:4 Håll nu överarmen stilla, andas ut och curla vikterna samtidigt som du spänner dina biceps.",
+      "Steg:5 Fortsätt att lyfta vikterna tills dina biceps är helt spända och hantlarna är i axelhöjd.",
+      "Steg:6 Håll den spända positionen under en kort paus medan du klämmer åt dina biceps.",
+      "Steg:7 Andas sedan in och börja långsamt sänka hantlarna tillbaka till startpositionen.",
+      "Steg:8 Upprepa för rekommenderat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "8d8qJQI",
+    "name": "barbell reverse grip incline bench row",
+    "gifUrl": "https://static.exercisedb.dev/media/8d8qJQI.gif",
+    "targetMuscles": ["upper back"],
+    "bodyParts": ["back"],
+    "equipments": ["barbell"],
+    "secondaryMuscles": ["biceps", "forearms"],
+    "instructions": [
+      "Steg:1 Ställ in en snedbänk i en 45-graders vinkel.",
+      "Steg:2 Sitt på bänken vänd mot ryggstödet med bröstet mot det.",
+      "Steg:3 Greppa skivstången med ett omvänt grepp (handflatorna vända nedåt) och händerna något bredare än axelbrett isär.",
+      "Steg:4 Håll ryggen rak och din core aktiverad.",
+      "Steg:5 Dra skivstången mot övre delen av magen, pressa ihop skulderbladen.",
+      "Steg:6 Pausa ett ögonblick i toppen av rörelsen.",
+      "Steg:7 Sänk långsamt ner skivstången till startpositionen igen.",
+      "Steg:8 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "JGKowMS",
+    "name": "smith narrow row",
+    "gifUrl": "https://static.exercisedb.dev/media/JGKowMS.gif",
+    "targetMuscles": ["upper back"],
+    "bodyParts": ["back"],
+    "equipments": ["smith machine"],
+    "secondaryMuscles": ["biceps", "rear deltoids"],
+    "instructions": [
+      "Steg:1 Justera säteshöjden och placera dig på maskinen med fötterna platt på golvet.",
+      "Steg:2 Greppa handtagen med ett överhandsgrepp, något smalare än axelbrett isär.",
+      "Steg:3 Håll ryggen rak och bröstet uppåt när du drar handtagen mot kroppen, pressa ihop skulderbladen.",
+      "Steg:4 Pausa ett ögonblick i toppen av rörelsen, släpp sedan långsamt tillbaka handtagen till startpositionen.",
+      "Steg:5 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "YUYAMEj",
+    "name": "assisted prone lying quads stretch",
+    "gifUrl": "https://static.exercisedb.dev/media/YUYAMEj.gif",
+    "targetMuscles": ["quads"],
+    "bodyParts": ["upper legs"],
+    "equipments": ["assisted"],
+    "secondaryMuscles": ["hamstrings", "glutes"],
+    "instructions": [
+      "Steg:1 Ligg med ansiktet nedåt på marken med benen utsträckta.",
+      "Steg:2 Böj ditt vänstra knä och sträck dig bakåt med din vänstra hand för att ta tag i din vänstra fot eller ankel.",
+      "Steg:3 Dra försiktigt din vänstra fot mot dina sätesmuskler och känn en stretch i din vänstra quadriceps.",
+      "Steg:4 Håll stretchen i 20-30 sekunder, släpp sedan.",
+      "Steg:5 Upprepa med ditt högra ben."
+    ]
+  },
+  {
+    "exerciseId": "ye84CTU",
+    "name": "lever preacher curl v. 2",
+    "gifUrl": "https://static.exercisedb.dev/media/ye84CTU.gif",
+    "targetMuscles": ["biceps"],
+    "bodyParts": ["upper arms"],
+    "equipments": ["leverage machine"],
+    "secondaryMuscles": ["forearms"],
+    "instructions": [
+      "Steg:1 Justera säteshöjden och placera dig på maskinen med överarmarna vilande på dynan och bröstet mot stödet.",
+      "Steg:2 Greppa handtagen med ett underhandsgrepp, något bredare än axelbrett isär.",
+      "Steg:3 Håll överarmarna stilla och andas ut när du curlar handtagen mot axlarna, spänn dina biceps.",
+      "Steg:4 Pausa ett ögonblick i toppen av rörelsen, kläm åt dina biceps.",
+      "Steg:5 Andas in när du långsamt sänker handtagen tillbaka till startpositionen, sträck ut armarna helt.",
+      "Steg:6 Upprepa för önskat antal repetitioner."
+    ]
+  },
+  {
+    "exerciseId": "VW88JNd",
+    "name": "dumbbell seated one leg calf raise - palm up",
+    "gifUrl": "https://static.exercisedb.dev/media/VW88JNd.gif",
+    "targetMuscles": ["calves"],
+    "bodyParts": ["lower legs"],
+    "equipments": ["dumbbell"],
+    "secondaryMuscles": ["hamstrings", "glutes"],
+    "instructions": [
+      "Steg:1 Sitt på en bänk eller stol med rak rygg och fötterna platt på marken.",
+      "Steg:2 Håll en hantel i ena handen och placera den ovanpå ditt lår, handflatan vänd uppåt.",
+      "Steg:3 Lyft ena benet från marken och sträck ut det framför dig, håll knät lätt böjt.",
+      "Steg:4 Höj hälen så högt som möjligt genom att trycka igenom fotbollen.",
+      "Steg:5 Pausa ett ögonblick i toppen, sänk sedan långsamt ner hälen igen.",
+      "Steg:6 Upprepa för önskat antal repetitioner, byt sedan till den andra handen."
+    ]
+  }
+]

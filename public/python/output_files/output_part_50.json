@@ -1,0 +1,772 @@
+[
+    {
+        "exerciseId": "6vcvsLS",
+        "name": "hanging straight leg raise with elevated",
+        "gifUrl": "https://static.exercisedb.dev/media/6vcvsLS.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "hip flexors"
+        ],
+        "instructions": [
+            "Step:1 Hang from a pull-up bar with your arms fully extended and your palms facing away from you.",
+            "Step:2 Engage your core and lift your legs up in front of you, keeping them straight.",
+            "Step:3 Continue lifting until your legs are parallel to the ground or as high as you can comfortably go. Maintain elevated form throughout.",
+            "Step:4 Pause for a moment at the top, then slowly lower your legs back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "afv0ZAS",
+        "name": "upright smith incline bench press",
+        "gifUrl": "https://static.exercisedb.dev/media/afv0ZAS.gif",
+        "targetMuscles": [
+            "pectorals"
+        ],
+        "bodyParts": [
+            "chest"
+        ],
+        "equipments": [
+            "smith machine"
+        ],
+        "secondaryMuscles": [
+            "shoulders",
+            "triceps"
+        ],
+        "instructions": [
+            "Step:1 Adjust the bench to a 30-45 degree incline.",
+            "Step:2 Sit on the bench with your back flat against the pad and feet firmly on the ground.",
+            "Step:3 Grasp the barbell with an overhand grip slightly wider than shoulder-width apart. Perform with upright intensity.",
+            "Step:4 Unrack the barbell and lower it slowly towards your upper chest, keeping your elbows slightly tucked in.",
+            "Step:5 Pause for a moment at the bottom, then push the barbell back up to the starting position, fully extending your arms.",
+            "Step:6 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "1YUWDNZ",
+        "name": "extended style inverted row",
+        "gifUrl": "https://static.exercisedb.dev/media/1YUWDNZ.gif",
+        "targetMuscles": [
+            "upper back"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "forearms"
+        ],
+        "instructions": [
+            "Step:1 Set up a bar at waist height or use a suspension trainer.",
+            "Step:2 Stand facing the bar or suspension trainer, with your feet shoulder-width apart.",
+            "Step:3 Grab the bar or handles with an overhand grip, slightly wider than shoulder-width apart.",
+            "Step:4 Lean back, keeping your body straight and your heels on the ground.",
+            "Step:5 Pull your chest towards the bar or handles, squeezing your shoulder blades together.",
+            "Step:6 Pause for a moment at the top, then slowly lower yourself back to the starting position.",
+            "Step:7 Repeat for the desired number of repetitions. Perform with extended intensity."
+        ]
+    },
+    {
+        "exerciseId": "r4RZKpF",
+        "name": "dumbbell one arm fly on exercise ball improved",
+        "gifUrl": "https://static.exercisedb.dev/media/r4RZKpF.gif",
+        "targetMuscles": [
+            "pectorals"
+        ],
+        "bodyParts": [
+            "chest"
+        ],
+        "equipments": [
+            "dumbbell"
+        ],
+        "secondaryMuscles": [
+            "shoulders",
+            "triceps"
+        ],
+        "instructions": [
+            "Step:1 Sit on an exercise ball with a dumbbell in one hand and your feet flat on the ground.",
+            "Step:2 Walk your feet forward and roll your body down until your upper back is resting on the exercise ball.",
+            "Step:3 Extend your arm with the dumbbell straight up above your chest, palm facing inwards.",
+            "Step:4 Slowly lower the dumbbell out to the side, keeping a slight bend in your elbow.",
+            "Step:5 Pause for a moment, then squeeze your chest muscles to bring the dumbbell back to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions, then switch arms. Focus on improved movement."
+        ]
+    },
+    {
+        "exerciseId": "WFucoe6",
+        "name": "hanging straight twisting leg hip raise with compound",
+        "gifUrl": "https://static.exercisedb.dev/media/WFucoe6.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "obliques",
+            "hip flexors"
+        ],
+        "instructions": [
+            "Step:1 Hang from a pull-up bar with your arms fully extended and your legs straight.",
+            "Step:2 Engage your core and lift your legs up towards your chest, keeping them straight. Perform with compound intensity.",
+            "Step:3 Once your legs are parallel to the ground, twist your hips to one side, bringing your legs towards that side.",
+            "Step:4 Pause for a moment, then return to the starting position.",
+            "Step:5 Repeat the movement, but this time twist your hips to the opposite side.",
+            "Step:6 Continue alternating sides for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "lRcrlH8",
+        "name": "fast band straight leg deadlift",
+        "gifUrl": "https://static.exercisedb.dev/media/lRcrlH8.gif",
+        "targetMuscles": [
+            "spine"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "band"
+        ],
+        "secondaryMuscles": [
+            "hamstrings",
+            "glutes"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart and place the band around your feet.",
+            "Step:2 Hold the band with both hands, palms facing your body, and keep your arms straight.",
+            "Step:3 Engage your core and maintain a slight bend in your knees.",
+            "Step:4 Slowly hinge forward at your hips, keeping your back straight and chest lifted.",
+            "Step:5 Lower the band towards the ground while keeping your legs straight.",
+            "Step:6 Pause for a moment at the bottom, then squeeze your glutes and hamstrings to return to the starting position.",
+            "Step:7 Repeat for the desired number of repetitions. Perform with fast intensity."
+        ]
+    },
+    {
+        "exerciseId": "nFHk9fU",
+        "name": "cable lateral pulldown (with rope attachment) core",
+        "gifUrl": "https://static.exercisedb.dev/media/nFHk9fU.gif",
+        "targetMuscles": [
+            "lats"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "cable"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "forearms"
+        ],
+        "instructions": [
+            "Step:1 Attach a rope attachment to the cable machine at a high position.",
+            "Step:2 Stand facing the machine with your feet shoulder-width apart.",
+            "Step:3 Grasp the rope with an overhand grip, palms facing each other.",
+            "Step:4 Keep your back straight and lean slightly back.",
+            "Step:5 Pull the rope down towards your sides, squeezing your shoulder blades together. Emphasize core control.",
+            "Step:6 Pause for a moment at the bottom of the movement.",
+            "Step:7 Slowly release the tension and allow the rope to return to the starting position.",
+            "Step:8 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "Xd65M9w",
+        "name": "dumbbell around pullover - intensive variation",
+        "gifUrl": "https://static.exercisedb.dev/media/Xd65M9w.gif",
+        "targetMuscles": [
+            "pectorals"
+        ],
+        "bodyParts": [
+            "chest"
+        ],
+        "equipments": [
+            "dumbbell"
+        ],
+        "secondaryMuscles": [
+            "triceps",
+            "latissimus dorsi"
+        ],
+        "instructions": [
+            "Step:1 Lie flat on a bench with your head at one end and your feet firmly on the ground.",
+            "Step:2 Hold a dumbbell with both hands and extend your arms straight above your chest. Perform with intensive intensity.",
+            "Step:3 Keeping your arms straight, slowly lower the dumbbell behind your head in an arc motion.",
+            "Step:4 Pause for a moment at the bottom, then raise the dumbbell back to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "gSO0KpB",
+        "name": "sit-up with arms on chest with mini",
+        "gifUrl": "https://static.exercisedb.dev/media/gSO0KpB.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "hip flexors"
+        ],
+        "instructions": [
+            "Step:1 Lie flat on your back with your knees bent and feet flat on the ground.",
+            "Step:2 Cross your arms over your chest.",
+            "Step:3 Engaging your abs, lift your upper body off the ground towards your knees.",
+            "Step:4 Pause for a moment at the top, then slowly lower your upper body back down to the starting position. Maintain mini form throughout.",
+            "Step:5 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "AwAIlSo",
+        "name": "squared reverse grip machine lat pulldown",
+        "gifUrl": "https://static.exercisedb.dev/media/AwAIlSo.gif",
+        "targetMuscles": [
+            "lats"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "leverage machine"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "forearms"
+        ],
+        "instructions": [
+            "Step:1 Adjust the seat height and position yourself on the machine with your knees under the pads and your feet flat on the ground.",
+            "Step:2 Grasp the handles with an underhand grip, slightly wider than shoulder-width apart.",
+            "Step:3 Sit upright with your chest out and shoulders back, maintaining a slight arch in your lower back.",
+            "Step:4 Pull the handles down towards your chest, squeezing your shoulder blades together. Maintain squared form throughout.",
+            "Step:5 Pause for a moment at the bottom of the movement, then slowly release the handles back to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "DICPHtq",
+        "name": "targeted style single leg calf raise (on a dumbbell)",
+        "gifUrl": "https://static.exercisedb.dev/media/DICPHtq.gif",
+        "targetMuscles": [
+            "calves"
+        ],
+        "bodyParts": [
+            "lower legs"
+        ],
+        "equipments": [
+            "dumbbell"
+        ],
+        "secondaryMuscles": [
+            "ankles",
+            "feet"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet hip-width apart and hold a dumbbell in one hand.",
+            "Step:2 Lift one foot off the ground and balance on the other foot.",
+            "Step:3 Slowly raise your heel as high as possible, using your calf muscles. Emphasize targeted control.",
+            "Step:4 Pause for a moment at the top, then slowly lower your heel back down.",
+            "Step:5 Repeat for the desired number of repetitions, then switch to the other leg."
+        ]
+    },
+    {
+        "exerciseId": "iDGtjyi",
+        "name": "chest and front of shoulder stretch micro",
+        "gifUrl": "https://static.exercisedb.dev/media/iDGtjyi.gif",
+        "targetMuscles": [
+            "pectorals"
+        ],
+        "bodyParts": [
+            "chest"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "deltoids"
+        ],
+        "instructions": [
+            "Step:1 Stand tall with your feet shoulder-width apart.",
+            "Step:2 Extend your arms straight out in front of you at shoulder height.",
+            "Step:3 Cross your arms in front of your body, with your right arm on top of your left arm.",
+            "Step:4 Interlace your fingers and press your palms together.",
+            "Step:5 Gently squeeze your shoulder blades together and push your hands forward, feeling a stretch in your chest and front of your shoulders.",
+            "Step:6 (micro variation) Hold the stretch for 20-30 seconds, then release.",
+            "Step:7 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "89HVjEp",
+        "name": "kettlebell seated press with high",
+        "gifUrl": "https://static.exercisedb.dev/media/89HVjEp.gif",
+        "targetMuscles": [
+            "delts"
+        ],
+        "bodyParts": [
+            "shoulders"
+        ],
+        "equipments": [
+            "kettlebell"
+        ],
+        "secondaryMuscles": [
+            "triceps",
+            "core"
+        ],
+        "instructions": [
+            "Step:1 Sit on a bench with your back straight and feet flat on the ground.",
+            "Step:2 Hold a kettlebell in each hand at shoulder height, palms facing forward.",
+            "Step:3 Press the kettlebells overhead, fully extending your arms. Focus on high movement.",
+            "Step:4 Lower the kettlebells back to shoulder height.",
+            "Step:5 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "echClj7",
+        "name": "barbell squat (on knees) with pure",
+        "gifUrl": "https://static.exercisedb.dev/media/echClj7.gif",
+        "targetMuscles": [
+            "quads"
+        ],
+        "bodyParts": [
+            "upper legs"
+        ],
+        "equipments": [
+            "barbell"
+        ],
+        "secondaryMuscles": [
+            "glutes",
+            "hamstrings",
+            "calves"
+        ],
+        "instructions": [
+            "Step:1 Start by kneeling on the ground with your knees hip-width apart and your toes pointing forward.",
+            "Step:2 Place a barbell across your shoulders, gripping it with an overhand grip and your hands slightly wider than shoulder-width apart.",
+            "Step:3 Engage your core and keep your chest lifted as you slowly lower your body down by bending your knees, keeping your back straight. Perform with pure intensity.",
+            "Step:4 Continue lowering until your thighs are parallel to the ground, or as low as you can comfortably go.",
+            "Step:5 Pause for a moment at the bottom, then push through your heels to return to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "myJeTAe",
+        "name": "tough cable one arm lateral raise",
+        "gifUrl": "https://static.exercisedb.dev/media/myJeTAe.gif",
+        "targetMuscles": [
+            "delts"
+        ],
+        "bodyParts": [
+            "shoulders"
+        ],
+        "equipments": [
+            "cable"
+        ],
+        "secondaryMuscles": [
+            "traps",
+            "triceps"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart, facing the cable machine.",
+            "Step:2 Hold the cable handle with one hand, palm facing down, and stand far enough away from the machine so that there is tension on the cable.",
+            "Step:3 Keep your arm straight and slowly raise it out to the side until it is parallel to the ground.",
+            "Step:4 Pause for a moment at the top, then slowly lower your arm back down to the starting position. Focus on tough movement.",
+            "Step:5 Repeat for the desired number of repetitions, then switch sides."
+        ]
+    },
+    {
+        "exerciseId": "znf7t8E",
+        "name": "kipping muscle up with triple",
+        "gifUrl": "https://static.exercisedb.dev/media/znf7t8E.gif",
+        "targetMuscles": [
+            "lats"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "triceps",
+            "shoulders",
+            "core"
+        ],
+        "instructions": [
+            "Step:1 Start by hanging from a pull-up bar with an overhand grip, hands slightly wider than shoulder-width apart.",
+            "Step:2 Engage your core and use a swinging motion to generate momentum.",
+            "Step:3 As you swing forward, pull your chest towards the bar, using your lats and biceps to initiate the movement. Emphasize triple control.",
+            "Step:4 Continue the upward motion until your chest reaches the bar, then transition into a dip position by pushing down on the bar and extending your arms.",
+            "Step:5 Lower yourself back down to the starting position by bending your arms and controlling the descent.",
+            "Step:6 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "tuIZFDt",
+        "name": "intermediate style kneeling plank tap shoulder (male)",
+        "gifUrl": "https://static.exercisedb.dev/media/tuIZFDt.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "shoulders",
+            "triceps"
+        ],
+        "instructions": [
+            "Step:1 Start in a kneeling position with your hands on the ground, shoulder-width apart.",
+            "Step:2 Extend your legs behind you, resting on your toes, and lift your body into a plank position.",
+            "Step:3 (intermediate variation) Keeping your core engaged and your hips stable, lift one hand off the ground and tap the opposite shoulder.",
+            "Step:4 Return the hand to the ground and repeat with the other hand.",
+            "Step:5 Continue alternating sides for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "o80Xu9C",
+        "name": "intensified style kettlebell extended range one arm press on floor",
+        "gifUrl": "https://static.exercisedb.dev/media/o80Xu9C.gif",
+        "targetMuscles": [
+            "pectorals"
+        ],
+        "bodyParts": [
+            "chest"
+        ],
+        "equipments": [
+            "kettlebell"
+        ],
+        "secondaryMuscles": [
+            "triceps",
+            "shoulders"
+        ],
+        "instructions": [
+            "Step:1 Start by lying on your back on the floor with your knees bent and feet flat on the ground.",
+            "Step:2 Hold a kettlebell in one hand, with your palm facing towards your feet.",
+            "Step:3 Extend your arm straight up towards the ceiling, keeping your elbow locked and your wrist straight.",
+            "Step:4 Slowly lower the kettlebell back down to the starting position, maintaining control throughout the movement.",
+            "Step:5 Repeat for the desired number of repetitions, then switch to the other arm. Perform with intensified intensity."
+        ]
+    },
+    {
+        "exerciseId": "UI81amT",
+        "name": "supine style band alternating v-up",
+        "gifUrl": "https://static.exercisedb.dev/media/UI81amT.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "band"
+        ],
+        "secondaryMuscles": [
+            "hip flexors"
+        ],
+        "instructions": [
+            "Step:1 Lie flat on your back with your legs straight and your arms extended overhead, holding the band.",
+            "Step:2 Engage your abs and lift your legs and upper body off the ground simultaneously, reaching your hands towards your toes.",
+            "Step:3 As you lower your legs and upper body back down, switch the position of your legs, crossing one over the other. Focus on supine movement.",
+            "Step:4 Repeat the movement, alternating the position of your legs with each repetition.",
+            "Step:5 Continue for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "7R4NIjL",
+        "name": "assisted standing triceps extension (with towel) with horizontal",
+        "gifUrl": "https://static.exercisedb.dev/media/7R4NIjL.gif",
+        "targetMuscles": [
+            "triceps"
+        ],
+        "bodyParts": [
+            "upper arms"
+        ],
+        "equipments": [
+            "assisted"
+        ],
+        "secondaryMuscles": [
+            "shoulders"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart and hold a towel with both hands behind your head.",
+            "Step:2 Keep your elbows close to your ears and your upper arms stationary.",
+            "Step:3 (horizontal variation) Slowly extend your forearms upward, squeezing your triceps at the top.",
+            "Step:4 Pause for a moment, then slowly lower the towel back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "W7yh3Yo",
+        "name": "wall style dumbbell one arm french press on exercise ball",
+        "gifUrl": "https://static.exercisedb.dev/media/W7yh3Yo.gif",
+        "targetMuscles": [
+            "triceps"
+        ],
+        "bodyParts": [
+            "upper arms"
+        ],
+        "equipments": [
+            "dumbbell"
+        ],
+        "secondaryMuscles": [
+            "shoulders"
+        ],
+        "instructions": [
+            "Step:1 Sit on an exercise ball with your feet flat on the ground and your back straight.",
+            "Step:2 Hold a dumbbell in one hand with your palm facing up and your elbow bent at a 90-degree angle. Focus on wall movement.",
+            "Step:3 Extend your arm straight up towards the ceiling, keeping your elbow stationary.",
+            "Step:4 Slowly lower the dumbbell back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions, then switch arms."
+        ]
+    },
+    {
+        "exerciseId": "BeReYBf",
+        "name": "side-to-side chin with reverse",
+        "gifUrl": "https://static.exercisedb.dev/media/BeReYBf.gif",
+        "targetMuscles": [
+            "lats"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "forearms"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart and your knees slightly bent.",
+            "Step:2 Grasp a pull-up bar with an overhand grip, hands slightly wider than shoulder-width apart.",
+            "Step:3 Hang from the bar with your arms fully extended and your body relaxed.",
+            "Step:4 Pull yourself up by bending your elbows and bringing your chin towards the bar, while keeping your body straight. Perform with reverse intensity.",
+            "Step:5 Once your chin is above the bar, lower yourself back down to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "VsopqcV",
+        "name": "macro style close-grip push-up",
+        "gifUrl": "https://static.exercisedb.dev/media/VsopqcV.gif",
+        "targetMuscles": [
+            "triceps"
+        ],
+        "bodyParts": [
+            "upper arms"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "chest",
+            "shoulders"
+        ],
+        "instructions": [
+            "Step:1 Start in a high plank position with your hands placed close together, directly under your shoulders.",
+            "Step:2 Engage your core and lower your body towards the ground, keeping your elbows close to your sides.",
+            "Step:3 Push through your palms to extend your arms and return to the starting position. Maintain macro form throughout.",
+            "Step:4 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "4QqYaJW",
+        "name": "gentle prone twist on stability ball",
+        "gifUrl": "https://static.exercisedb.dev/media/4QqYaJW.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "stability ball"
+        ],
+        "secondaryMuscles": [
+            "obliques",
+            "lower back"
+        ],
+        "instructions": [
+            "Step:1 Start by lying face down on a stability ball with your feet shoulder-width apart and your toes touching the ground.",
+            "Step:2 Place your hands behind your head or cross them over your chest.",
+            "Step:3 Engage your core muscles and slowly lift your upper body off the ball, keeping your back straight.",
+            "Step:4 Rotate your torso to one side, bringing your shoulder towards your hip. Keep your hips and legs stable throughout the movement.",
+            "Step:5 Pause for a moment, then return to the starting position.",
+            "Step:6 (gentle variation) Repeat the rotation to the other side.",
+            "Step:7 Continue alternating sides for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "vNPJbDA",
+        "name": "cable rope incline tricep extension - reverse variation",
+        "gifUrl": "https://static.exercisedb.dev/media/vNPJbDA.gif",
+        "targetMuscles": [
+            "triceps"
+        ],
+        "bodyParts": [
+            "upper arms"
+        ],
+        "equipments": [
+            "cable"
+        ],
+        "secondaryMuscles": [
+            "shoulders"
+        ],
+        "instructions": [
+            "Step:1 Attach a rope to a high pulley and adjust the incline bench to a comfortable angle.",
+            "Step:2 Stand facing away from the pulley with your feet shoulder-width apart.",
+            "Step:3 Grasp the rope with an overhand grip and extend your arms straight overhead.",
+            "Step:4 (reverse variation) Keep your elbows close to your head and your upper arms stationary throughout the exercise.",
+            "Step:5 Lower the rope behind your head by bending your elbows until your forearms touch your biceps.",
+            "Step:6 Pause for a moment, then extend your arms back to the starting position.",
+            "Step:7 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "Y8dOJlH",
+        "name": "cable squat row (with rope attachment) heavy",
+        "gifUrl": "https://static.exercisedb.dev/media/Y8dOJlH.gif",
+        "targetMuscles": [
+            "lats"
+        ],
+        "bodyParts": [
+            "back"
+        ],
+        "equipments": [
+            "cable"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "rhomboids",
+            "rear deltoids"
+        ],
+        "instructions": [
+            "Step:1 Attach a rope to a cable machine at waist height.",
+            "Step:2 Stand facing the cable machine with your feet shoulder-width apart.",
+            "Step:3 (heavy variation) Bend your knees and lower your body into a squat position, keeping your back straight and chest up.",
+            "Step:4 Grasp the rope with an overhand grip, with your hands shoulder-width apart.",
+            "Step:5 Engage your core and pull the rope towards your body, squeezing your shoulder blades together.",
+            "Step:6 Keep your elbows close to your body and continue pulling until your hands reach your chest.",
+            "Step:7 Pause for a moment at the top of the movement, then slowly release the rope and extend your arms back to the starting position.",
+            "Step:8 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "kLiIFdB",
+        "name": "band vertical pallof press - seated variation",
+        "gifUrl": "https://static.exercisedb.dev/media/kLiIFdB.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "band"
+        ],
+        "secondaryMuscles": [
+            "obliques",
+            "glutes"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart and wrap the band around a sturdy object at chest height.",
+            "Step:2 Hold the band with both hands and step away from the anchor point, creating tension in the band.",
+            "Step:3 Position yourself perpendicular to the anchor point, with your side facing the band.",
+            "Step:4 Extend your arms straight out in front of you, keeping your hands at chest height.",
+            "Step:5 Engage your core and press the band away from your chest, fully extending your arms.",
+            "Step:6 Hold the position for a few seconds, then slowly bring the band back towards your chest.",
+            "Step:7 Repeat for the desired number of repetitions, then switch sides. Perform with seated intensity."
+        ]
+    },
+    {
+        "exerciseId": "YA2HKGz",
+        "name": "barbell reverse wrist curl - prone variation",
+        "gifUrl": "https://static.exercisedb.dev/media/YA2HKGz.gif",
+        "targetMuscles": [
+            "forearms"
+        ],
+        "bodyParts": [
+            "lower arms"
+        ],
+        "equipments": [
+            "barbell"
+        ],
+        "secondaryMuscles": [
+            "biceps",
+            "brachialis"
+        ],
+        "instructions": [
+            "Step:1 Sit on a bench with your feet flat on the ground and hold a barbell with an overhand grip, palms facing down.",
+            "Step:2 Rest your forearms on your thighs, allowing your wrists to hang off the edge.",
+            "Step:3 Slowly curl your wrists upward, bringing the barbell towards your body. Emphasize prone control.",
+            "Step:4 Pause for a moment at the top, then slowly lower the barbell back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+        ]
+    },
+    {
+        "exerciseId": "lFBTISi",
+        "name": "firm style hanging oblique knee raise",
+        "gifUrl": "https://static.exercisedb.dev/media/lFBTISi.gif",
+        "targetMuscles": [
+            "abs"
+        ],
+        "bodyParts": [
+            "waist"
+        ],
+        "equipments": [
+            "body weight"
+        ],
+        "secondaryMuscles": [
+            "obliques"
+        ],
+        "instructions": [
+            "Step:1 Hang from a pull-up bar with your arms fully extended and your palms facing away from you.",
+            "Step:2 Engage your core and lift your knees towards your chest, twisting your torso to the side as you do so.",
+            "Step:3 Pause for a moment at the top, then slowly lower your legs back down to the starting position.",
+            "Step:4 Repeat on the other side, twisting your torso in the opposite direction.",
+            "Step:5 Continue alternating sides for the desired number of repetitions. Emphasize firm control."
+        ]
+    },
+    {
+        "exerciseId": "gWcZD4q",
+        "name": "horizontal dumbbell standing alternate overhead press",
+        "gifUrl": "https://static.exercisedb.dev/media/gWcZD4q.gif",
+        "targetMuscles": [
+            "delts"
+        ],
+        "bodyParts": [
+            "shoulders"
+        ],
+        "equipments": [
+            "dumbbell"
+        ],
+        "secondaryMuscles": [
+            "triceps",
+            "core"
+        ],
+        "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart, holding a dumbbell in each hand at shoulder level with your palms facing forward.",
+            "Step:2 (horizontal variation) Press one dumbbell overhead, fully extending your arm.",
+            "Step:3 Lower the dumbbell back to shoulder level.",
+            "Step:4 Repeat with the other arm.",
+            "Step:5 Continue alternating arms for the desired number of repetitions."
+        ]
+    }
+]

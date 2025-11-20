@@ -39,6 +39,9 @@
                 <p-tablist>
                     <p-tab value="0">Övning</p-tab>
                     <p-tab value="1">Registrera</p-tab>
+                    <p-tab value="0">
+                        <app-favorite-toggle [exerciseId]="selectedExcercise?.exerciseId"></app-favorite-toggle> 
+                        </p-tab>
                 </p-tablist>
                 <p-tabpanels>
                     <p-tabpanel value="0">

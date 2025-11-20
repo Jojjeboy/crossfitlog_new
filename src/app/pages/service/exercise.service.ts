@@ -13,7 +13,7 @@ import { CompletedOccasion } from '../models/completedOccasion.interface';
 @Injectable({
   providedIn: 'root',
 })
-export class ExerciseService implements OnDestroy{
+export class ExerciseService implements OnDestroy {
   private jsonUrl = '/exercises.json'; // Sökväg till din JSON-fil
   private exercisesFromDb: ExerciseModel[] = [];
   private completedExercises: ExerciseModel[] = [];
@@ -34,7 +34,7 @@ export class ExerciseService implements OnDestroy{
 
 
   constructor(
-    private http: HttpClient, 
+    private http: HttpClient,
     private storageService: StorageService
   ) {
     // Listan över alla övningar som finns ligger i exercise.json. Den behöver laddas in
@@ -49,15 +49,15 @@ export class ExerciseService implements OnDestroy{
    * Inga parametrar.
    * Returnerar ingenting (`void`).
    */
-  loadFromStorage(): void{
+  loadFromStorage(): void {
     // Vi kollar först om övningsdatabasen är laddad, annars kan vi inte mappa historik korrekt.
     if (!this.isLoaded) {
-        console.warn('Försöker ladda historik innan övningsdatabasen är klar.');
-        // Vi kan välja att kasta fel här, men vi låter den fortsätta för att undvika krasch.
+      console.warn('Försöker ladda historik innan övningsdatabasen är klar.');
+      // Vi kan välja att kasta fel här, men vi låter den fortsätta för att undvika krasch.
     }
-    
+
     const raw = this.storageService.ensureArrayExists<CompletedExercise>(this.key);
-    
+
     // Mappningen anropar toCompletedExerciseModel som anropar getItemById
     const models = raw ? raw.map(w => this.toCompletedExerciseModel(w)) : [];
     this.completedExerciseSubject.next(models);
@@ -82,9 +82,9 @@ export class ExerciseService implements OnDestroy{
         this.setData(models);
         this.exercisesSubject.next(models);
         this.isLoaded = true; // Markera som laddad efter lyckad laddning
-        
+
         // FIXAD BEROENDE: Ladda historik HÄR, så att this.exercisesFromDb är redo
-        this.loadFromStorage(); 
+        this.loadFromStorage();
       },
       error => {
         console.error('Kunde inte ladda övningar från JSON-fil:', error);
@@ -133,7 +133,7 @@ export class ExerciseService implements OnDestroy{
     return this.favouriteExercises.find(item => item.exerciseId === id);
   }
 
-  
+
 
   /**
    * Filtrerar övningar baserat på ett sökord.
@@ -185,16 +185,16 @@ export class ExerciseService implements OnDestroy{
    * @returns {ExerciseModel} En instans av `ExerciseModel` med standardvärden för en saknad övning.
    */
   private createEmptyExerciseModel(): ExerciseModel {
-      return new ExerciseModel(
-          'missing-id', 
-          'Övning saknas', 
-          '', 
-          [], 
-          [], 
-          [], 
-          [], 
-          ['Detaljer kunde inte laddas. Kontrollera din historikdata.']
-      );
+    return new ExerciseModel(
+      'missing-id',
+      'Övning saknas',
+      '',
+      [],
+      [],
+      [],
+      [],
+      ['Detaljer kunde inte laddas. Kontrollera din historikdata.']
+    );
   }
 
   /**
@@ -211,11 +211,11 @@ export class ExerciseService implements OnDestroy{
 
     // 2. Använd if/else för tydlig kontroll (som önskat)
     if (completedExercise.lookupId) {
-        // Om vi har en rå övning OCH den har ett ID, försök hämta den fullständiga modellen
-        exerciseToDisplay = this.getItemById(completedExercise.lookupId) as ExerciseModel; 
+      // Om vi har en rå övning OCH den har ett ID, försök hämta den fullständiga modellen
+      exerciseToDisplay = this.getItemById(completedExercise.lookupId) as ExerciseModel;
     } else {
-        // Annars, sätt till undefined
-        exerciseToDisplay = undefined;
+      // Annars, sätt till undefined
+      exerciseToDisplay = undefined;
     }
 
     // 3. Konvertera datum (som fortfarande kan vara en sträng från localStorage)
@@ -223,11 +223,11 @@ export class ExerciseService implements OnDestroy{
 
     // 4. Returnera den nya modellen
     return new CompletedExerciseModel(
-        completedExercise.uuid,
-        completedExercise.lookupId,
-        // Vi använder exerciseToDisplay om det finns, annars en tom modell
-        exerciseToDisplay || this.createEmptyExerciseModel(),        
-        completedExercise.occasion
+      completedExercise.uuid,
+      completedExercise.lookupId,
+      // Vi använder exerciseToDisplay om det finns, annars en tom modell
+      exerciseToDisplay || this.createEmptyExerciseModel(),
+      completedExercise.occasion
     );
   }
 
@@ -268,15 +268,19 @@ export class ExerciseService implements OnDestroy{
 
 
 
-  toggleFavourite(exercise: ExerciseModel): void {
-    const currentFavourites = this.favouriteExerciseSubject.getValue();
-    const existingExercise = currentFavourites.find(e => e.exerciseId === exercise.exerciseId);
+  toggleFavourite(exerciseId: string): void {
+    const favoriteExercises = this.favouriteExerciseSubject.getValue();
+    const exercise = this.getItemById(exerciseId);
+    if (!exercise) {
+      return;
+    }
+    const existingExercise = favoriteExercises.find(e => e.exerciseId === exercise.exerciseId);
 
     if (!existingExercise) {
-      this.favouriteExerciseSubject.next([...currentFavourites, exercise]);
+      this.favouriteExerciseSubject.next([...favoriteExercises, exercise]);
     }
     else {
-      this.favouriteExerciseSubject.next(currentFavourites.filter(e => e.exerciseId !== exercise.exerciseId));
+      this.favouriteExerciseSubject.next(favoriteExercises.filter(e => e.exerciseId !== exercise.exerciseId));
     }
     this.saveFavouriteExercises();
 
@@ -307,7 +311,7 @@ export class ExerciseService implements OnDestroy{
 
   private saveFavouriteExercises(): void {
     const favouriteExercises = this.favouriteExerciseSubject.getValue();
-    const dataToSave = favouriteExercises.map(model => ({ 
+    const dataToSave = favouriteExercises.map(model => ({
       exerciseId: model.exerciseId,
       name: model.name,
       gifUrl: model.gifUrl,
@@ -317,7 +321,7 @@ export class ExerciseService implements OnDestroy{
       secondaryMuscles: model.secondaryMuscles,
       instructions: model.instructions,
     }));
-    
+
     this.storageService.set(this.favKey, dataToSave);
   }
 
@@ -345,7 +349,7 @@ export class ExerciseService implements OnDestroy{
    * Inga parametrar.
    * Returnerar ingenting (`void`).
    * @returns void
-   */ 
+   */
   ngOnDestroy(): void {
     this.storageSub?.unsubscribe();
   }

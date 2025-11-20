@@ -12,13 +12,13 @@ import { ChipModule } from 'primeng/chip';
 import { OccasionFormComponent } from "../occasion-form-component/occasion-form-component";
 import { ExerciseService } from '@/pages/service/exercise.service';
 import { ExcerciseDescription } from "../excercise-description/excercise-description";
-import { ExerciseModel } from '@/pages/models/exercise.model';
+import { FavoriteToggle } from "../favorite-toggle/favorite-toggle";
 
 
 
 @Component({
   selector: 'app-list-completed-exercise-component',
-  imports: [CommonModule, Dialog, TabsModule, AccordionModule, TableModule, TreeTableModule, CardModule, ChipModule, OccasionFormComponent, ExcerciseDescription],
+  imports: [CommonModule, Dialog, TabsModule, AccordionModule, TableModule, TreeTableModule, CardModule, ChipModule, OccasionFormComponent, ExcerciseDescription, FavoriteToggle],
   templateUrl: './list-completed-exercise-component.html',
   styleUrl: './list-completed-exercise-component.scss'
 })
@@ -101,19 +101,5 @@ export class ListCompletedExerciseComponent extends List {
 
     // Returnera datumsträngen från det senaste tillfälle-objektet
     return latestOccasion.date;
-  }
-
-  isFavourite(exerciseId: string | undefined): boolean {
-    if (exerciseId !== undefined) {
-      return this.exerciseService.isExerciseInFavorites(exerciseId);
-    }
-    return false
-
-  }
-
-  toggleFavourite(exercise: ExerciseModel | undefined){
-    if(exercise !== undefined){
-      this.exerciseService.toggleFavourite(exercise);
-    }
   }
 }
