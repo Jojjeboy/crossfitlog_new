@@ -39,10 +39,4 @@ export class ListExerciseComponent extends List {
     console.log('Received message from child:', newOccasion);
     this.visible = false;
   }
-
-
-
-  showPopup(passsedVal: string) {
-    alert(passsedVal);
-  }
 }
